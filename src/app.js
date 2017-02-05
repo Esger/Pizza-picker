@@ -1,9 +1,5 @@
 export class App {
   constructor() {
-    this.message = 'Pizza List!';
-    this.pizzas = [
-      'Margherita',
-      'Napolitana'
-    ];
+    this.message = 'We have pizzas!';
   }
 }

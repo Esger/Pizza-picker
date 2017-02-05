@@ -1,8 +1,9 @@
 <template>
-	<h2>The best pizzas</h2>
-	<ul>
+	<require from="components/pizza-list.css"></require>
+	<h2>${title}</h2>
+	<ol>
 		<li repeat.for="pizza of pizzas">
-			${pizza}
+			<h4>${pizza.naam}</h4>
 		</li>
-	</ul>
+	</ol>
 </template>
