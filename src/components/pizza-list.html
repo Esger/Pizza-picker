@@ -1,9 +1,12 @@
 <template>
 	<require from="components/pizza-list.css"></require>
+	<!-- <require from="components/description.html"></require> -->
 	<h2>${title}</h2>
-	<ol>
+	<ul>
 		<li repeat.for="pizza of pizzas">
-			<h4>${pizza.naam}</h4>
+			<h4><span>${pizza.nummer}</span>${pizza.naam}</h4>
+			<p>${pizza.ingredienten}</p>
+			<!-- <description child-data.bind="pizza"></description> -->
 		</li>
-	</ol>
+	</ul>
 </template>
