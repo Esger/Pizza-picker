@@ -1,0 +1,8 @@
+<template>
+	<require from="components/ingredients-list.css"></require>
+	<ul class="ingredients-list">
+		<li class="ingredients-list__item" repeat.for="ingredient of ingredients">
+			<h4>${ingredient}</h4>
+		</li>
+	</ul>
+</template>

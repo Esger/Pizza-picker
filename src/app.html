@@ -1,6 +1,17 @@
 <template>
+  <require from="components/reset.css"></require>
   <require from="components/main.css"></require>
   <require from="components/pizza-list"></require>
-  <h1>${message}</h1>
-  <pizza-list></pizza-list>
+  <require from="components/ingredients-list"></require>
+  <h1>${title}</h1>
+  <main class="row">
+    <section class="row__column row__column--2col">
+      <h2>${subtitle}</h2>
+      <pizza-list pizzas.bind="pizzas"></pizza-list>
+    </section>
+    <section class="row__column row__column--2col">
+      <h2>${ingredientsTitle}</h2>
+      <ingredients-list ingredients.bind="ingredients"></ingredients-list>
+    </section>
+  </main>
 </template>

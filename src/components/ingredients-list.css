@@ -1,0 +1,20 @@
+/*------------------------------------*\
+  #INGREDIENTS-LIST
+\*------------------------------------*/
+
+
+/**
+ * Comment
+ */
+
+.ingredients-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.ingredients-list__item {
+  margin: 20px 0;
+  font-size: 18px;
+  text-transform: capitalize;
+  text-align: right;
+}

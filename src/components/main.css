@@ -1,4 +1,38 @@
+/*------------------------------------*\
+  #GENERAL
+\*------------------------------------*/
+
 body, html {
-	font-family: 'trebuchet MS', sans-serif;
-	line-height: 1.2;
+  font-family: 'trebuchet MS', sans-serif;
+  line-height: 1.2;
+}
+
+body {
+  margin: 20px 40px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  margin: 20px 0;
+  font-size: 28px;
+}
+
+
+/*------------------------------------*\
+  #OBJECTS
+\*------------------------------------*/
+
+.row {
+  overflow: hidden;
+}
+
+.row__column {
+  float: left;
+}
+
+.row__column--2col {
+  width: 50%;
 }
