@@ -1,5 +1,4 @@
 import {
-  inject,
   bindable
 } from 'aurelia-framework';
 

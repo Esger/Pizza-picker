@@ -12,7 +12,7 @@
   padding-left: 0;
 }
 
-.ingredients-list__item {
+.ingredients-list__type-item {
   margin: 20px 0;
   font-size: 18px;
   text-transform: capitalize;

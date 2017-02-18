@@ -3,7 +3,6 @@ export class App {
     this.title = 'We have pizzas.';
     this.subtitle = 'The best pizzas!';
     this.ingredientsTitle = 'Fresh ingredients';
-    this.ingredients = [];
     this.ingredients = [
       'fruit',
       'groente',
@@ -11,12 +10,12 @@ export class App {
       'vis',
       'vlees'
     ];
-    this.ingredients.fruit = [
+    this.ingredients['fruit'] = [
       'ananas',
       'banaan',
       'gemengd_fruit'
     ];
-    this.ingredients.groente = [
+    this.ingredients['groente'] = [
       'artisjokken',
       'asperges',
       'broccoli',
@@ -39,7 +38,7 @@ export class App {
       'spinazie',
       'uien'
     ];
-    this.ingredients.kaas = [
+    this.ingredients['kaas'] = [
       'brie',
       'gorgonzola',
       'kaas',
@@ -47,7 +46,7 @@ export class App {
       'parmezaanse_kaas',
       'room'
     ];
-    this.ingredients.vis = [
+    this.ingredients['vis'] = [
       'ansjovis',
       'garnalen',
       'inktvis',
@@ -59,7 +58,7 @@ export class App {
       'gepelde_gambas',
       'rode_zalm_snippers'
     ];
-    this.ingredients.vlees = [
+    this.ingredients['vlees'] = [
       'bolognesesaus',
       'ei',
       'gehaktsaus',

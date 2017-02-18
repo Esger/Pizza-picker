@@ -1,8 +1,16 @@
 <template>
 	<require from="components/ingredients-list.css"></require>
+	<!-- <require from="src/resources/value-converters/object-keys-value-converter.js"></require> -->
+	<require from="src/resources/value-converters/object-values-value-converter.js"></require>
 	<ul class="ingredients-list">
-		<li class="ingredients-list__item" repeat.for="ingredient of ingredients">
-			<h4>${ingredient}</h4>
+		<li class="ingredients-list__type-item" repeat.for="ingredientType of ingredients">
+			<h4>${ingredientType}</h4>
+			${ingredients.ingredientsType}
+			<ul>
+				<li repeat.for="ingredient of ingredientType | objectValues">
+					${ingredient}
+				</li>
+			</ul>
 		</li>
 	</ul>
 </template>
