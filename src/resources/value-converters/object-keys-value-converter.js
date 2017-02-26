@@ -10,7 +10,7 @@ export class ObjectKeysValueConverter {
                 // temp.push(obj[prop]);
                 temp.push({
                     name: prop,
-                    ingredients: obj[prop]
+                    value: obj[prop]
                 });
             }
         }

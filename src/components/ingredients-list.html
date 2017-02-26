@@ -1,12 +1,12 @@
 <template>
 	<require from="components/ingredients-list.css"></require>
 	<require from="resources/value-converters/object-keys-value-converter"></require>
-	<require from="resources/value-converters/object-values-value-converter"></require>
+	<!-- <require from="resources/value-converters/object-values-value-converter"></require> -->
 	<ul class="ingredients-list">
 		<li class="ingredients-list__type-item" repeat.for="ingredientType of ingredients | objectKeys">
 			<h4>${ingredientType.name}</h4>
 			<ul>
-				<li repeat.for="ingredient of ingredientType.ingredients">
+				<li repeat.for="ingredient of ingredientType.value">
 					<button-group>
 						<button>&check;</button>
 						${ingredient}

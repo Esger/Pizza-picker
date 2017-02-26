@@ -6,73 +6,68 @@ export class App {
         this.ingredientsTitle = '...met verse spullen';
         // this.ingredients = {};
         this.ingredients = {
-            'fruit': [
-                'ananas',
-                'banaan',
-                'gemengd_fruit'
-            ],
-            'groente': [
-                'artisjokken',
-                'asperges',
-                'broccoli',
-                'champignons',
-                'kappertjes',
-                'knoflook',
-                'olijven',
-                'paprika',
-                'spaanse_pepers',
-                'rucola',
-                'cherry_tomaatjes',
-                'tomaten',
-                'verse_basilicum',
-                'verse_knoflook',
-                'verse_peterselie',
-                'groene_pesto',
-                'gegrilde_aubergine',
-                'pijnboompitjes',
-                'rode_ui',
-                'spinazie',
-                'uien'
-            ],
-            'kaas': [
-                'brie',
-                'gorgonzola',
-                'kaas',
-                'mozzarella',
-                'parmezaanse_kaas',
-                'room'
-            ],
-            'vis': [
-                'ansjovis',
-                'garnalen',
-                'inktvis',
-                'mosselen',
-                'paling',
-                'tonijn',
-                'zeevruchten',
-                'zalm',
-                'gepelde_gambas',
-                'rode_zalm_snippers'
-            ],
-            'vlees': [
-                'bolognesesaus',
-                'ei',
-                'gehaktsaus',
-                'ham',
-                'kipfilet',
-                'ossenhaas',
-                'rosbief',
-                'salami',
-                'spek',
-                'varkensfilet',
-                'parmaham'
-            ]
+            'fruit': {
+                'ananas' : 0,
+                'banaan' : 0,
+                'gemengd_fruit' : 0
+            },
+            'groente': {
+                'artisjokken' : 0,
+                'asperges' : 0,
+                'broccoli' : 0,
+                'champignons' : 0,
+                'kappertjes' : 0,
+                'knoflook' : 0,
+                'olijven' : 0,
+                'paprika' : 0,
+                'spaanse_pepers' : 0,
+                'rucola' : 0,
+                'cherry_tomaatjes' : 0,
+                'tomaten' : 0,
+                'verse_basilicum' : 0,
+                'verse_knoflook' : 0,
+                'verse_peterselie' : 0,
+                'groene_pesto' : 0,
+                'gegrilde_aubergine' : 0,
+                'pijnboompitjes' : 0,
+                'rode_ui' : 0,
+                'spinazie' : 0,
+                'uien' : 0
+            },
+            'kaas': {
+                'brie' : 0,
+                'gorgonzola' : 0,
+                'kaas' : 0,
+                'mozzarella' : 0,
+                'parmezaanse_kaas' : 0,
+                'room' : 0
+            },
+            'vis': {
+                'ansjovis' : 0,
+                'garnalen' : 0,
+                'inktvis' : 0,
+                'mosselen' : 0,
+                'paling' : 0,
+                'tonijn' : 0,
+                'zeevruchten' : 0,
+                'zalm' : 0,
+                'gepelde_gambas' : 0,
+                'rode_zalm_snippers' : 0
+            },
+            'vlees': {
+                'bolognesesaus' : 0,
+                'ei' : 0,
+                'gehaktsaus' : 0,
+                'ham' : 0,
+                'kipfilet' : 0,
+                'ossenhaas' : 0,
+                'rosbief' : 0,
+                'salami' : 0,
+                'spek' : 0,
+                'varkensfilet' : 0,
+                'parmaham' : 0
+            }
         };
-        // this.ingredients.fruit = ;
-        // this.ingredients.groente = ;
-        // this.ingredients.kaas = ;
-        // this.ingredients.vis = ;
-        // this.ingredients.vlees = ;
 
         this.pizzas = [{
             'naam': 'Napolitana',
@@ -80,8 +75,6 @@ export class App {
             'pikant': false,
             'prijs': '6.00',
             'nummer': '2',
-            'sortingWeight': 0,
-            'ingredienten'
             'sortingWeight': 0,
             'ingredienten': 'ansjovis, kappertjes, tomaten, kaas'
         }, {
@@ -389,7 +382,7 @@ export class App {
             'sortingWeight': 0,
             'ingredienten': 'ham, salami, artisjokken, asperges, champignons, spaanse_pepers, tomaten, uien, kaas'
         }, {
-            'naam': 'Dell&rsquo;_Amore',
+            'naam': 'Dell_Amore',
             'vegetarisch': false,
             'pikant': false,
             'prijs': '9.25',
