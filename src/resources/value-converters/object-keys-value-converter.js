@@ -1,18 +1,21 @@
 // A ValueConverter for iterating an Object's properties inside of a repeat.for in Aurelia
 export class ObjectKeysValueConverter {
-  toView(obj) {
-    // Create a temporary array to populate with object keys
-    let temp = [];
+    toView(obj) {
+        // Create a temporary array to populate with object keys
+        let temp = [];
 
-    // A basic for..in loop to get object properties
-    for (let prop in obj) {
-      if (obj.hasOwnProperty(prop)) {
-        temp.push(obj[prop]);
-      }
+        // A basic for..in loop to get object properties
+        for (let prop in obj) {
+            if (obj.hasOwnProperty(prop)) {
+                // temp.push(obj[prop]);
+                temp.push({
+                    name: prop,
+                    ingredients: obj[prop]
+                });
+            }
+        }
+        return temp;
     }
-
-    return temp;
-  }
 }
 
 /**

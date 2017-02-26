@@ -4,10 +4,14 @@
 	<require from="resources/value-converters/object-values-value-converter"></require>
 	<ul class="ingredients-list">
 		<li class="ingredients-list__type-item" repeat.for="ingredientType of ingredients | objectKeys">
-			<h4>${ingredientType}</h4>
+			<h4>${ingredientType.name}</h4>
 			<ul>
-				<li repeat.for="ingredient of ingredientType">
-					${ingredient}
+				<li repeat.for="ingredient of ingredientType.ingredients">
+					<button-group>
+						<button>&check;</button>
+						${ingredient}
+						<button>&times;</button>
+					</button-group>
 				</li>
 			</ul>
 		</li>

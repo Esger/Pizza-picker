@@ -3,15 +3,20 @@
   <require from="components/main.css"></require>
   <require from="components/pizza-list"></require>
   <require from="components/ingredients-list"></require>
-  <h1>${title}</h1>
+  <header>
+      <h1>${title}</h1>
+  </header>
   <main class="row">
     <section class="row__column row__column--2col">
       <h2>${subtitle}</h2>
       <pizza-list pizzas.bind="pizzas"></pizza-list>
     </section>
     <section class="row__column row__column--2col">
-      <h2>${ingredientsTitle}</h2>
+      <h2 class="row__header">${ingredientsTitle}</h2>
       <ingredients-list ingredients.bind="ingredients"></ingredients-list>
     </section>
   </main>
+  <footer>
+      <h4>${footerText}</h4>
+  </footer>
 </template>

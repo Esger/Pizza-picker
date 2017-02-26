@@ -2,22 +2,34 @@
   #GENERAL
 \*------------------------------------*/
 
-body, html {
-  font-family: 'trebuchet MS', sans-serif;
-  line-height: 1.2;
+body,
+html {
+    font-family: 'trebuchet MS', sans-serif;
+    line-height: 1.2;
+    width: 100%;
+    height: 100%;
 }
 
 body {
-  margin: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    overflow: hidden;
+}
+
+header,
+footer {
+    flex: 0 0 50px;
+    padding: 0 40px;
 }
 
 h1 {
-  font-size: 36px;
+    font-size: 36px;
 }
 
 h2 {
-  margin: 20px 0;
-  font-size: 28px;
+    margin: 20px 0;
+    font-size: 28px;
 }
 
 
@@ -26,13 +38,25 @@ h2 {
 \*------------------------------------*/
 
 .row {
-  overflow: hidden;
+    display: flex;
+}
+
+.row__header {
+    text-align: right;
 }
 
 .row__column {
-  float: left;
+    flex: 1 1 auto;
+    overflow-y: auto;
+}
+
+.row__column:first-child {
+    padding-left: 40px;
+}
+.row__column:last-child {
+    padding-right: 40px;
 }
 
 .row__column--2col {
-  width: 50%;
+    flex: 1 1 50%;
 }
