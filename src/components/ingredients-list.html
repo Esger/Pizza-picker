@@ -6,10 +6,10 @@
 		<li class="ingredients-list__type-item" repeat.for="ingredientType of ingredients | objectKeys">
 			<h4>${ingredientType.name}</h4>
 			<ul>
-				<li repeat.for="ingredient of ingredientType.value">
+				<li repeat.for="ingredient of $parent.ingredients[ingredientType.name] | objectKeys">
 					<button-group>
 						<button>&check;</button>
-						${ingredient}
+						${ingredient.name}|${ingredient.value}
 						<button>&times;</button>
 					</button-group>
 				</li>
