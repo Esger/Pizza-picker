@@ -1,9 +1,9 @@
 import {
-  inject,
-  bindable
+    inject,
+    bindable
 } from 'aurelia-framework';
 
 export class PizzaListCustomElement {
-  @bindable pizzas;
-  constructor() {}
+    @bindable pizzas;
+    constructor() {}
 }

@@ -8,8 +8,9 @@
 			<ul>
 				<li repeat.for="ingredient of $parent.ingredients[ingredientType.name] | objectKeys">
 					<button-group>
-						<button>&check;</button>
+						<button click.trigger="likeIngredient(ingredientType.name, ingredient.name)">&check;</button>
 						${ingredient.name}|${ingredient.value}
+						<input type="text" value="${ingredient.value}" />
 						<button>&times;</button>
 					</button-group>
 				</li>
