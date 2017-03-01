@@ -3,18 +3,18 @@
 	<require from="resources/value-converters/object-keys-value-converter"></require>
 	<!-- <require from="resources/value-converters/object-values-value-converter"></require> -->
 	<ul class="ingredients-list">
-		<li class="ingredients-list__type-item" repeat.for="ingredientType of ingredients | objectKeys">
+		<!-- <li class="ingredients-list__type-item" repeat.for="ingredientType of ingredients | objectKeys">
 			<h4>${ingredientType.name}</h4>
-			<ul>
-				<li repeat.for="ingredient of $parent.ingredients[ingredientType.name] | objectKeys">
+			<ul> -->
+				<li repeat.for="ingredient of ingredients">
 					<button-group>
-						<button click.trigger="likeIngredient(ingredientType.name, ingredient.name)">&check;</button>
-						${ingredient.name}|${ingredient.value}
-						<input type="text" value="${ingredient.value}" />
+						<button click.trigger="likeIngredient(ingredient)">&check;</button>
+						${ingredient.name}|${ingredient.pref}
+						<input type="text" value="${ingredient.pref}" />
 						<button>&times;</button>
 					</button-group>
 				</li>
-			</ul>
-		</li>
+			<!-- </ul>
+		</li> -->
 	</ul>
 </template>
