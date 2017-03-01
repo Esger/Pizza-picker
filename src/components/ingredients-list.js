@@ -265,8 +265,10 @@ export class IngredientsListCustomElement {
     }
 
     likeIngredient(ingredient) {
-        let val = parseInt(ingredient[pref])
-        this.ingredients[ingredient][pref] = val + 1;
-        console.log('yo', this.ingredients[ingredient][pref]);
+        ingredient['pref'] ++;
+    }
+
+    dislikeIngredient(ingredient) {
+        ingredient['pref'] --;
     }
 }
