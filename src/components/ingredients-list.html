@@ -3,9 +3,9 @@
 	<ul class="ingredients-list">
 		<li repeat.for="ingredient of ingredients">
 			<button-group>
-				<button click.trigger="likeIngredient(ingredient)">&check;</button>
+				<button click.trigger="likeIngredient(ingredient)" disabled.bind="ingredient.pref">&check;</button>
 				${ingredient.name}|${ingredient.pref}
-				<button click.trigger="dislikeIngredient(ingredient)">&times;</button>
+				<button click.trigger="dislikeIngredient(ingredient)" disabled.bind="ingredient.pref == false">&times;</button>
 			</button-group>
 		</li>
 	</ul>
