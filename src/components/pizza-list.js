@@ -719,7 +719,7 @@ export class PizzaListCustomElement {
             this.updatePreferences(response);
         });
         this.updatePreferences = function(ingredient){
-            // this.showList = !this.showList;
+            this.showList = !this.showList;
             for (let pizza of this.pizzas) {
                 if (pizza.ingredienten.includes(ingredient.name)) {
                     if (ingredient.pref === true) {
@@ -731,9 +731,9 @@ export class PizzaListCustomElement {
                     console.log(pizza);
                 }
             }
-            // setTimeout(function () {
-                // this.showList = !this.showList;
-            // }, 10);
+            setTimeout(() => {
+                this.showList = !this.showList;
+            }, 0);
         }
     }
 }
