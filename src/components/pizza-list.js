@@ -41,7 +41,7 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'champignons, tomaten, kaas'
             }, {
-                'naam': 'Quattro_Stagioni',
+                'naam': 'Quattro Stagioni',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '6.50',
@@ -71,7 +71,7 @@ export class PizzaListCustomElement {
                 'prijs': '7.00',
                 'nummer': 9,
                 'sortingWeight': 0,
-                'ingredienten': 'champignons, paprika, spaanse_pepers, tomaten, uien, kaas'
+                'ingredienten': 'champignons, paprika, spaanse pepers, tomaten, uien, kaas'
             }, {
                 'naam': 'Capricciosa',
                 'vegetarisch': false,
@@ -89,7 +89,7 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'ham, salami, tomaten, kaas'
             }, {
-                'naam': 'Capricciosa_Speciale',
+                'naam': 'Capricciosa Speciale',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '9.75',
@@ -105,7 +105,7 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'artisjokken, champignons, tomaten, uien, kaas'
             }, {
-                'naam': 'Stella_Marina',
+                'naam': 'Stella Marina',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '7.00',
@@ -161,7 +161,7 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'ham, rosbief, salami, spek, tomaten, kaas'
             }, {
-                'naam': 'Frutti_di_mare',
+                'naam': 'Frutti di mare',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '8.25',
@@ -169,13 +169,13 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'zeevruchten, tomaten, kaas'
             }, {
-                'naam': 'Santa_Lucia',
+                'naam': 'Santa Lucia',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '7.50',
                 'nummer': 22,
                 'sortingWeight': 0,
-                'ingredienten': 'ham, salami, ansjovis, artisjokken, spaanse_pepers, tomaten, kaas'
+                'ingredienten': 'ham, salami, ansjovis, artisjokken, spaanse pepers, tomaten, kaas'
             }, {
                 'naam': 'Marinara',
                 'vegetarisch': false,
@@ -209,7 +209,7 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'salami, ansjovis, champignons, olijven, paprika, tomaten, uien, kaas'
             }, {
-                'naam': 'Funghi_alla_Marinera',
+                'naam': 'Funghi alla Marinera',
                 'vegetarisch': false,
                 'pikant': true,
                 'prijs': '8.50',
@@ -239,7 +239,7 @@ export class PizzaListCustomElement {
                 'prijs': '7.00',
                 'nummer': 30,
                 'sortingWeight': 0,
-                'ingredienten': 'gehaktsaus, tomaten, kaas, parmezaanse_kaas'
+                'ingredienten': 'gehaktsaus, tomaten, kaas, parmezaanse kaas'
             }, {
                 'naam': 'Americana',
                 'vegetarisch': false,
@@ -247,9 +247,9 @@ export class PizzaListCustomElement {
                 'prijs': '8.00',
                 'nummer': 32,
                 'sortingWeight': 0,
-                'ingredienten': 'gehaktsaus, spek, champignons, paprika, tomaten, uien, kaas, parmezaanse_kaas'
+                'ingredienten': 'gehaktsaus, spek, champignons, paprika, tomaten, uien, kaas, parmezaanse kaas'
             }, {
-                'naam': 'Quattro_Stagioni_Speciale',
+                'naam': 'Quattro Stagioni Speciale',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '8.00',
@@ -257,7 +257,7 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'ham, salami, artisjokken, champignons, kappertjes, paprika, tomaten, kaas'
             }, {
-                'naam': 'Paesana_alla_Gorgonzola',
+                'naam': 'Paesana alla Gorgonzola',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '9.00',
@@ -271,9 +271,9 @@ export class PizzaListCustomElement {
                 'prijs': '9.25',
                 'nummer': 35,
                 'sortingWeight': 0,
-                'ingredienten': 'gehaktsaus, ham, champignons, olijven, paprika, tomaten, gorgonzola, kaas, parmezaanse_kaas'
+                'ingredienten': 'gehaktsaus, ham, champignons, olijven, paprika, tomaten, gorgonzola, kaas, parmezaanse kaas'
             }, {
-                'naam': 'Quattro_Formaggi',
+                'naam': 'Quattro Formaggi',
                 'vegetarisch': true,
                 'pikant': false,
                 'prijs': '8.00',
@@ -289,7 +289,7 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'artisjokken, asperges, champignons, olijven, paprika, tomaten, uien, brie, kaas'
             }, {
-                'naam': 'San_Francesco',
+                'naam': 'San Francesco',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '7.50',
@@ -305,7 +305,7 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'ham, tonijn, asperges, champignons, knoflook, paprika, tomaten, kaas'
             }, {
-                'naam': 'Carbonara_Speciale',
+                'naam': 'Carbonara Speciale',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '8.50',
@@ -313,15 +313,15 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'ei, ham, rosbief, salami, spek, tomaten, uien, kaas'
             }, {
-                'naam': 'Santa_Lucia_Speciale',
+                'naam': 'Santa Lucia Speciale',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '8.50',
                 'nummer': 41,
                 'sortingWeight': 0,
-                'ingredienten': 'ham, salami, artisjokken, asperges, champignons, spaanse_pepers, tomaten, uien, kaas'
+                'ingredienten': 'ham, salami, artisjokken, asperges, champignons, spaanse pepers, tomaten, uien, kaas'
             }, {
-                'naam': 'Dell_Amore',
+                'naam': 'Dell Amore',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '9.25',
@@ -329,7 +329,7 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'ham, ossenhaas, champignons, paprika, tomaten, ananas, gorgonzola, kaas'
             }, {
-                'naam': 'Del_Re',
+                'naam': 'Del Re',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '9.75',
@@ -345,7 +345,7 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'gehaktsaus, asperges, tomaten, brie, kaas'
             }, {
-                'naam': 'Pizza_Gorgonzola',
+                'naam': 'Pizza Gorgonzola',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '8.50',
@@ -353,13 +353,13 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'ham, salami, artisjokken, asperges, tomaten, uien, gorgonzola, kaas'
             }, {
-                'naam': 'Al_Capone',
+                'naam': 'Al Capone',
                 'vegetarisch': false,
                 'pikant': true,
                 'prijs': '9.50',
                 'nummer': 46,
                 'sortingWeight': 0,
-                'ingredienten': 'ossenhaas, salami, asperges, champignons, paprika, tomaten, gorgonzola, kaas, parmezaanse_kaas'
+                'ingredienten': 'ossenhaas, salami, asperges, champignons, paprika, tomaten, gorgonzola, kaas, parmezaanse kaas'
             }, {
                 'naam': 'Napoli',
                 'vegetarisch': false,
@@ -369,13 +369,13 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'ossenhaas, varkensfilet, asperges, champignons, paprika, tomaten, ananas, gorgonzola, kaas, mozzarella'
             }, {
-                'naam': 'Tutti_Frutti',
+                'naam': 'Tutti Frutti',
                 'vegetarisch': true,
                 'pikant': false,
                 'prijs': '7.00',
                 'nummer': 48,
                 'sortingWeight': 0,
-                'ingredienten': 'tomaten, gemengd_fruit, kaas'
+                'ingredienten': 'tomaten, gemengd fruit, kaas'
             }, {
                 'naam': 'Hawaiana',
                 'vegetarisch': false,
@@ -393,7 +393,7 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'garnalen, tomaten, ananas, kaas, mozzarella'
             }, {
-                'naam': 'Hawaiana_speciale',
+                'naam': 'Hawaiana speciale',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '8.75',
@@ -401,15 +401,15 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'ham, kipfilet, asperges, champignons, paprika, tomaten, ananas, banaan, kaas'
             }, {
-                'naam': 'Tutti_Frutti_speciale',
+                'naam': 'Tutti Frutti speciale',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '8.50',
                 'nummer': 52,
                 'sortingWeight': 0,
-                'ingredienten': 'ham, tomaten, banaan, gemengd_fruit, gorgonzola, kaas'
+                'ingredienten': 'ham, tomaten, banaan, gemengd fruit, gorgonzola, kaas'
             }, {
-                'naam': 'Gran_Canaria',
+                'naam': 'Gran Canaria',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '8.50',
@@ -423,7 +423,7 @@ export class PizzaListCustomElement {
                 'prijs': '8.75',
                 'nummer': 54,
                 'sortingWeight': 0,
-                'ingredienten': 'inktvis, tomaten, ananas, banaan, gemengd_fruit, kaas, mozzarella'
+                'ingredienten': 'inktvis, tomaten, ananas, banaan, gemengd fruit, kaas, mozzarella'
             }, {
                 'naam': 'Capri',
                 'vegetarisch': false,
@@ -439,7 +439,7 @@ export class PizzaListCustomElement {
                 'prijs': '8.75',
                 'nummer': 56,
                 'sortingWeight': 0,
-                'ingredienten': 'rosbief, broccoli, champignons, spaanse_pepers, tomaten, gorgonzola, kaas, mozzarella'
+                'ingredienten': 'rosbief, broccoli, champignons, spaanse pepers, tomaten, gorgonzola, kaas, mozzarella'
             }, {
                 'naam': 'Anguille',
                 'vegetarisch': false,
@@ -449,7 +449,7 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'paling, zalm, tomaten, uien, kaas'
             }, {
-                'naam': 'Bel_Fiore',
+                'naam': 'Bel Fiore',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '8.00',
@@ -465,7 +465,7 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'kipfilet, broccoli, champignons, paprika, tomaten, kaas'
             }, {
-                'naam': 'Calzone_frutti_di_mare_speciale',
+                'naam': 'Calzone frutti di mare speciale',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '10.00',
@@ -473,15 +473,15 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'garnalen, mosselen, paling, tonijn, zalm, tomaten, gorgonzola, kaas'
             }, {
-                'naam': 'Calzone_speciale',
+                'naam': 'Calzone speciale',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '9.00',
                 'nummer': 61,
                 'sortingWeight': 0,
-                'ingredienten': 'ham, salami, spek, varkensfilet, champignons, paprika, spaanse_pepers, tomaten, kaas'
+                'ingredienten': 'ham, salami, spek, varkensfilet, champignons, paprika, spaanse pepers, tomaten, kaas'
             }, {
-                'naam': 'Del_cacciatore',
+                'naam': 'Del cacciatore',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '9.50',
@@ -489,7 +489,7 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'ham, ossenhaas, rosbief, salami, varkensfilet, champignons, tomaten, uien, kaas'
             }, {
-                'naam': 'Del_Padrino',
+                'naam': 'Del Padrino',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '9.25',
@@ -505,7 +505,7 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'ham, broccoli, paprika, tomaten, gorgonzola, kaas'
             }, {
-                'naam': 'Frutti_di_mare_speciale',
+                'naam': 'Frutti di mare speciale',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '9.75',
@@ -513,13 +513,13 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'ansjovis, garnalen, inktvis, mosselen, paling, tonijn, zalm, tomaten, kaas'
             }, {
-                'naam': 'Don_Luigi',
+                'naam': 'Don Luigi',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '8.75',
                 'nummer': 66,
                 'sortingWeight': 0,
-                'ingredienten': 'ham, salami, spek, broccoli, spaanse_pepers, tomaten, uien, kaas, mozzarella'
+                'ingredienten': 'ham, salami, spek, broccoli, spaanse pepers, tomaten, uien, kaas, mozzarella'
             }, {
                 'naam': 'Mario',
                 'vegetarisch': false,
@@ -527,9 +527,9 @@ export class PizzaListCustomElement {
                 'prijs': '8.00',
                 'nummer': 67,
                 'sortingWeight': 0,
-                'ingredienten': 'kipfilet, broccoli, spaanse_pepers, tomaten, ananas, kaas'
+                'ingredienten': 'kipfilet, broccoli, spaanse pepers, tomaten, ananas, kaas'
             }, {
-                'naam': 'Vegetariana_speciale',
+                'naam': 'Vegetariana speciale',
                 'vegetarisch': true,
                 'pikant': false,
                 'prijs': '8.75',
@@ -537,7 +537,7 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'artisjokken, asperges, champignons, olijven, paprika, tomaten, uien, ananas, gorgonzola, kaas'
             }, {
-                'naam': 'Dello_studente',
+                'naam': 'Dello studente',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '8.50',
@@ -553,7 +553,7 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'inktvis, tonijn, paprika, tomaten, uien, kaas'
             }, {
-                'naam': 'San_Ignazio',
+                'naam': 'San Ignazio',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '8.75',
@@ -577,7 +577,7 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'ei, rosbief, spek, asperges, tomaten, uien, kaas'
             }, {
-                'naam': 'San_Giorgio',
+                'naam': 'San Giorgio',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '8.50',
@@ -585,7 +585,7 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'ham, broccoli, olijven, tomaten, uien, gorgonzola, kaas'
             }, {
-                'naam': 'San_Genaro',
+                'naam': 'San Genaro',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '8.50',
@@ -593,45 +593,45 @@ export class PizzaListCustomElement {
                 'sortingWeight': 0,
                 'ingredienten': 'ham, salami, tonijn, champignons, olijven, paprika, tomaten, kaas'
             }, {
-                'naam': 'Paella_all_Italiana',
+                'naam': 'Paella all Italiana',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '10.25',
                 'nummer': 77,
                 'sortingWeight': 0,
-                'ingredienten': 'ham, kipfilet, garnalen, inktvis, mosselen, paling, zalm, paprika, spaanse_pepers, tomaten, uien, kaas'
+                'ingredienten': 'ham, kipfilet, garnalen, inktvis, mosselen, paling, zalm, paprika, spaanse pepers, tomaten, uien, kaas'
             }, {
-                'naam': 'Del_Capitano',
+                'naam': 'Del Capitano',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '9.25',
                 'nummer': 78,
                 'sortingWeight': 0,
-                'ingredienten': 'garnalen, paling, tonijn, broccoli, spaanse_pepers, tomaten, uien, kaas'
+                'ingredienten': 'garnalen, paling, tonijn, broccoli, spaanse pepers, tomaten, uien, kaas'
             }, {
-                'naam': 'Del_vagabondo',
+                'naam': 'Del vagabondo',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '9.75',
                 'nummer': 79,
                 'sortingWeight': 0,
-                'ingredienten': 'gehaktsaus, artisjokken, asperges, paprika, tomaten, brie, gorgonzola, kaas, mozzarella, parmezaanse_kaas'
+                'ingredienten': 'gehaktsaus, artisjokken, asperges, paprika, tomaten, brie, gorgonzola, kaas, mozzarella, parmezaanse kaas'
             }, {
-                'naam': 'Napoli_speciale',
+                'naam': 'Napoli speciale',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '10.50',
                 'nummer': 80,
                 'sortingWeight': 0,
-                'ingredienten': 'kipfilet, ossenhaas, salami, varkensfilet, asperges, champignons, paprika, tomaten, gorgonzola, kaas, parmezaanse_kaas'
+                'ingredienten': 'kipfilet, ossenhaas, salami, varkensfilet, asperges, champignons, paprika, tomaten, gorgonzola, kaas, parmezaanse kaas'
             }, {
-                'naam': 'San_Marco',
+                'naam': 'San Marco',
                 'vegetarisch': false,
                 'pikant': false,
                 'prijs': '9.25',
                 'nummer': 69,
                 'sortingWeight': 0,
-                'ingredienten': 'gehaktsaus, tonijn, asperges, champignons, spaanse_pepers, tomaten, uien, gorgonzola, kaas'
+                'ingredienten': 'gehaktsaus, tonijn, asperges, champignons, spaanse pepers, tomaten, uien, gorgonzola, kaas'
             }, {
                 'naam': 'Crudo',
                 'vegetarisch': false,
@@ -639,7 +639,7 @@ export class PizzaListCustomElement {
                 'prijs': '10.00',
                 'nummer': 81,
                 'sortingWeight': 0,
-                'ingredienten': 'tomaten, mozzarella, parmezaanse_kaas, parmaham, rucola'
+                'ingredienten': 'tomaten, mozzarella, parmezaanse kaas, parmaham, rucola'
             }, {
                 'naam': 'Campania',
                 'vegetarisch': false,
@@ -647,7 +647,7 @@ export class PizzaListCustomElement {
                 'prijs': '10.50',
                 'nummer': 82,
                 'sortingWeight': 0,
-                'ingredienten': 'tomaten, mozzarella, parmaham, cherry_tomaatjes, verse_basilicum, verse_knoflook'
+                'ingredienten': 'tomaten, mozzarella, parmaham, cherry tomaatjes, verse basilicum, verse knoflook'
             }, {
                 'naam': 'Caprese',
                 'vegetarisch': true,
@@ -655,7 +655,7 @@ export class PizzaListCustomElement {
                 'prijs': '9.00',
                 'nummer': 83,
                 'sortingWeight': 0,
-                'ingredienten': 'tomaten, mozzarella, cherry_tomaatjes, verse_basilicum, verse_knoflook'
+                'ingredienten': 'tomaten, mozzarella, cherry tomaatjes, verse basilicum, verse knoflook'
             }, {
                 'naam': 'Al pesto',
                 'vegetarisch': true,
@@ -663,7 +663,7 @@ export class PizzaListCustomElement {
                 'prijs': '10.00',
                 'nummer': 84,
                 'sortingWeight': 0,
-                'ingredienten': 'tomaten, mozzarella, rucola, cherry_tomaatjes, verse_basilicum, groene_pesto, pijnboompitjes'
+                'ingredienten': 'tomaten, mozzarella, rucola, cherry tomaatjes, verse basilicum, groene pesto, pijnboompitjes'
             }, {
                 'naam': 'Contadina',
                 'vegetarisch': true,
@@ -671,7 +671,7 @@ export class PizzaListCustomElement {
                 'prijs': '10.00',
                 'nummer': 85,
                 'sortingWeight': 0,
-                'ingredienten': 'tomaten, mozzarella, verse_knoflook, gegrilde_aubergine, rode_ui'
+                'ingredienten': 'tomaten, mozzarella, verse knoflook, gegrilde aubergine, rode ui'
             }, {
                 'naam': 'Spinacina',
                 'vegetarisch': true,
@@ -679,7 +679,7 @@ export class PizzaListCustomElement {
                 'prijs': '10.00',
                 'nummer': 86,
                 'sortingWeight': 0,
-                'ingredienten': 'olijven, tomaten, mozzarella, parmezaanse_kaas, verse_knoflook, pijnboompitjes, spinazie'
+                'ingredienten': 'olijven, tomaten, mozzarella, parmezaanse kaas, verse knoflook, pijnboompitjes, spinazie'
             }, {
                 'naam': 'Neptuno',
                 'vegetarisch': false,
@@ -687,7 +687,7 @@ export class PizzaListCustomElement {
                 'prijs': '13.00',
                 'nummer': 87,
                 'sortingWeight': 0,
-                'ingredienten': 'tonijn, tomaten, mozzarella, verse_peterselie, verse_knoflook, gepelde_gambas, rode_zalm_snippers'
+                'ingredienten': 'tonijn, tomaten, mozzarella, verse peterselie, verse knoflook, gepelde gambas, rode zalm snippers'
             }, {
                 'naam': 'Panna et salmone',
                 'vegetarisch': false,
@@ -695,7 +695,7 @@ export class PizzaListCustomElement {
                 'prijs': '11.00',
                 'nummer': 88,
                 'sortingWeight': 0,
-                'ingredienten': 'tomaten, mozzarella, verse_peterselie, verse_knoflook, rode_zalm_snippers, room'
+                'ingredienten': 'tomaten, mozzarella, verse peterselie, verse knoflook, rode zalm snippers, room'
             }, {
                 'naam': 'Panna et gamberoni',
                 'vegetarisch': false,
@@ -703,7 +703,7 @@ export class PizzaListCustomElement {
                 'prijs': '12.50',
                 'nummer': 89,
                 'sortingWeight': 0,
-                'ingredienten': 'tomaten, mozzarella, verse_peterselie, verse_knoflook, gepelde_gambas, room'
+                'ingredienten': 'tomaten, mozzarella, verse peterselie, verse knoflook, gepelde gambas, room'
             }, {
                 'naam': 'Pizzadoc',
                 'vegetarisch': false,
@@ -711,11 +711,10 @@ export class PizzaListCustomElement {
                 'prijs': '11.00',
                 'nummer': 90,
                 'sortingWeight': 0,
-                'ingredienten': 'tomaten, kaas, mozzarella, parmaham, rucola, cherry_tomaatjes'
+                'ingredienten': 'tomaten, kaas, mozzarella, parmaham, rucola, cherry tomaatjes'
             }
         ];
         this.ea.subscribe('setPreference', response => {
-            // console.log(response);
             this.updatePreferences(response);
         });
         this.updatePreferences = function(ingredient){
@@ -725,10 +724,6 @@ export class PizzaListCustomElement {
                     if (ingredient.pref === true) {
                         pizza.sortingWeight ++;
                     }
-                    if (ingredient.pref === false) {
-                        pizza.sortingWeight --;
-                    }
-                    console.log(pizza);
                 }
             }
             setTimeout(() => {

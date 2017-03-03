@@ -21,6 +21,9 @@ header,
 footer {
     flex: 0 0 50px;
     padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 h1 {
@@ -42,19 +45,13 @@ h2 {
 }
 
 .row__header {
-    text-align: right;
+    text-align: center;
 }
 
 .row__column {
     flex: 1 1 auto;
     overflow-y: auto;
-}
-
-.row__column:first-child {
-    padding-left: 40px;
-}
-.row__column:last-child {
-    padding-right: 40px;
+    padding: 0 40px;
 }
 
 .row__column--2col {
