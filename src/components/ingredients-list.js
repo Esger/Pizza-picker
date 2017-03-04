@@ -1,277 +1,290 @@
-import { inject, bindable } from 'aurelia-framework';
-import { EventAggregator } from 'aurelia-event-aggregator';
+import {
+    inject,
+    bindable
+} from 'aurelia-framework';
+import {
+    EventAggregator
+} from 'aurelia-event-aggregator';
 
 @inject(EventAggregator)
 export class IngredientsListCustomElement {
 
     constructor(EventAggregator, dirtyChecker) {
         this.ea = EventAggregator;
-        this.ingredients = [
-            {
+        this.ingredients = [{
                 'name': 'brie',
                 'type': 'kaas',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'gorgonzola',
                 'type': 'kaas',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'kaas',
                 'type': 'kaas',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'mozzarella',
                 'type': 'kaas',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'parmezaanse kaas',
                 'type': 'kaas',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'room',
                 'type': 'kaas',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'bolognesesaus',
                 'type': 'vlees',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'ei',
                 'type': 'vlees',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'gehaktsaus',
                 'type': 'vlees',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'ham',
                 'type': 'vlees',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'kipfilet',
                 'type': 'vlees',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'ossenhaas',
                 'type': 'vlees',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'rosbief',
                 'type': 'vlees',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'salami',
                 'type': 'vlees',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'spek',
                 'type': 'vlees',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'varkensfilet',
                 'type': 'vlees',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'parmaham',
                 'type': 'vlees',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'ansjovis',
                 'type': 'vis',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'garnalen',
                 'type': 'vis',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'inktvis',
                 'type': 'vis',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'mosselen',
                 'type': 'vis',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'paling',
                 'type': 'vis',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'tonijn',
                 'type': 'vis',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'zeevruchten',
                 'type': 'vis',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'zalm',
                 'type': 'vis',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'gepelde gambas',
                 'type': 'vis',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'rode zalm snippers',
                 'type': 'vis',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'artisjokken',
                 'type': 'groente',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'asperges',
                 'type': 'groente',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'broccoli',
                 'type': 'groente',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'champignons',
                 'type': 'groente',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'kappertjes',
                 'type': 'groente',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'knoflook',
                 'type': 'groente',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'olijven',
                 'type': 'groente',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'paprika',
                 'type': 'groente',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'spaanse pepers',
                 'type': 'groente',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'rucola',
                 'type': 'groente',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'cherry tomaatjes',
                 'type': 'groente',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'tomaten',
                 'type': 'groente',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'verse basilicum',
                 'type': 'groente',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'verse knoflook',
                 'type': 'groente',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'verse peterselie',
                 'type': 'groente',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'groene pesto',
                 'type': 'groente',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'gegrilde aubergine',
                 'type': 'groente',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'pijnboompitjes',
                 'type': 'groente',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'rode ui',
                 'type': 'groente',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'spinazie',
                 'type': 'groente',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'uien',
                 'type': 'groente',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'ananas',
                 'type': 'fruit',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'banaan',
                 'type': 'fruit',
-                'pref': null
+                'pref': 0
             },
             {
                 'name': 'gemengd_fruit',
                 'type': 'fruit',
-                'pref': null
+                'pref': 0
             }
         ];
     }
 
     likeIngredient(ingredient) {
-        ingredient['pref'] = true;
+        ingredient['pref'] = 1;
         this.ea.publish('setPreference', ingredient);
     }
 
     dislikeIngredient(ingredient) {
-        ingredient['pref'] = false;
+        ingredient['pref'] = -1;
+        this.ea.publish('setPreference', ingredient);
+    }
+
+    resetIngredients() {
+        for (let ingredient in this.ingredients) {
+            if (object.let(ingredient)) {
+                ingredient.pref = 0;
+            }
+        }
         this.ea.publish('setPreference', ingredient);
     }
 }

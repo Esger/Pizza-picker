@@ -7,6 +7,9 @@ export class PizzaListCustomElement {
     constructor(EventAggregator) {
         this.ea = EventAggregator;
         this.showList = true;
+        this.ea.subscribe('setPreference', response => {
+            this.updatePreferences(response);
+        });
         this.pizzas = [
             {
                 'naam': 'Napolitana',
@@ -714,21 +717,26 @@ export class PizzaListCustomElement {
                 'ingredienten': 'tomaten, kaas, mozzarella, parmaham, rucola, cherry tomaatjes'
             }
         ];
-        this.ea.subscribe('setPreference', response => {
-            this.updatePreferences(response);
-        });
-        this.updatePreferences = function(ingredient){
-            this.showList = !this.showList;
-            for (let pizza of this.pizzas) {
-                if (pizza.ingredienten.includes(ingredient.name)) {
-                    if (ingredient.pref === true) {
-                        pizza.sortingWeight ++;
-                    }
-                }
-            }
-            setTimeout(() => {
-                this.showList = !this.showList;
-            }, 0);
-        }
     }
+    this.updatePreferences(ingredient){
+        this.showList = !this.showList;
+        for (let pizza of this.pizzas) {
+            if (pizza.ingredienten.includes(ingredient.name)) {
+                ingredient.pref += ingredient.sortingWeight;
+            }
+        }
+        setTimeout(() => {
+            this.showList = !this.showList;
+        }, 0);
+    };
+
+    this.resetPizzas() {
+        for (let pizza in this.pizzas) {
+            if (object.let(pizza)) {
+                pizza.sortingWeight = 0;
+            }
+        }
+        this.ea.publish('setPreference', pizza);
+    };
+
 }

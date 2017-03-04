@@ -1,7 +1,8 @@
 <template>
 	<require from="components/ingredients-list.css"></require>
+	<require from="resources/value-converters/sort-value-converter"></require>
 	<ul class="ingredients-list">
-		<li repeat.for="ingredient of ingredients">
+		<li repeat.for="ingredient of ingredients" | sort: { propertyName: 'type', direction: 'ascending', propertyName2 : 'name', direction2: 'ascending' }>
 			<button-group class="ingredients__buttonGroup" class.bind="ingredient.type">
 				<button class="ingredients__button--left" click.trigger="likeIngredient(ingredient)" disabled.bind="ingredient.pref">&check;</button>
 				<label class="ingredients__button--label">${ingredient.name}</label>

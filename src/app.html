@@ -5,19 +5,20 @@
   <require from="components/ingredients-list"></require>
   <header>
       <h1>${title}</h1>
+      <button class="button__reset" click.trigger="reset()">&larr;</button>
   </header>
   <main class="row">
     <section class="row__column row__column--2col">
       <h2>${subtitle}</h2>
-      <pizza-list pizzas.bind="pizzas"></pizza-list>
+      <pizza-list view-model.ref="pizzasViewModel"></pizza-list>
     </section>
-    <section class="row__column row__column--2col">
+    <section class="row__column row__column--2col row__column--last">
       <h2 class="row__header">${ingredientsTitle}</h2>
       <!-- <ingredients-list ingredients.bind="ingredients"></ingredients-list> -->
-      <ingredients-list></ingredients-list>
+      <ingredients-list view-model.ref="ingredientsViewModel"></ingredients-list>
     </section>
   </main>
   <footer>
-      <h4>${footerText}</h4>
+      <h4 class="footer__payOff">${footerText}</h4>
   </footer>
 </template>
