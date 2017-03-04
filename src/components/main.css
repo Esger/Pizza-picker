@@ -1,4 +1,84 @@
-body, html {
-	font-family: 'trebuchet MS', sans-serif;
-	line-height: 1.2;
+/*------------------------------------*\
+#GENERAL
+\*------------------------------------*/
+
+body,
+html {
+    font-family: 'trebuchet MS', sans-serif;
+    line-height: 1.2;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    overflow: hidden;
+    background-color: #00ae00;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#00ae00, endColorstr=white);
+    background-image: -moz-linear-gradient(top, #00ae00 10%, white 50%, red 90%);
+    background-image: linear-gradient(top, #00ae00 10%, white 50%, red 90%);
+    background-image: -webkit-linear-gradient(top, #00ae00 10%, white 50%, red 90%);
+    background-image: -o-linear-gradient(top, #00ae00 10%, white 50%, red 90%);
+    background-image: -ms-linear-gradient(top, #00ae00 10%, white 50%, red 90%);
+    background-image: -webkit-gradient(linear, right top, right bottom, color-stop(10%, #00ae00), color-stop(50%, white), color-stop(90%, red));
+}
+
+header,
+footer {
+    flex: 0 0 60px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 36px;
+    color: white;
+}
+
+h2 {
+    margin: 20px 0;
+    font-size: 28px;
+}
+
+/*------------------------------------*\
+#OBJECTS
+\*------------------------------------*/
+
+.row {
+    display: flex;
+}
+
+.row__header {
+    text-align: center;
+}
+
+.row__column {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    margin: 0 20px 0 40px;
+    padding: 10px 20px;
+    background-color: white;
+    -webkit-box-shadow: inset 0 0 15px 0 rgba(0, 0, 0, .3);
+    box-shadow: inset 0 0 15px 0 rgba(0, 0, 0, .3);
+}
+.row__column--last {
+    margin: 0 40px;
+}
+.row__column--2col {
+    flex: 1 1 50%;
+}
+
+.button__reset {
+    border: 1px solid #e8e8e8;
+    background-color: #fff;
+    border-radius: 4px;
+    outline: none;
+    font-size: 24px;
+    line-height: 18px;
+    cursor: pointer;
 }
