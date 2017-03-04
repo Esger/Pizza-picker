@@ -39,11 +39,18 @@
     color: #c8c8c8;
     font-weight: bold;
 }
-.ingredients__button--left[disabled]{
+[class^=ingredients__button--]{
+    opacity: .2;
+}
+.ingredients__button--left{
     color: green;
 }
-.ingredients__button--right[disabled]{
+.ingredients__button--right{
     color: red;
+}
+[class^=ingredients__button--][disabled]{
+    opacity: 1;
+    cursor: auto;
 }
 .ingredients__button--left{
     font-size: 21px;
@@ -63,6 +70,7 @@
   letter-spacing: 1px;
   text-align: center;
   color: #333;
+  opacity: 1;
   text-shadow: 0 1px 1px #D9D9D9;
   margin-top: 1px;
 }

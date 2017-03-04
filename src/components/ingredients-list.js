@@ -1,17 +1,13 @@
-import {
-    inject,
-    bindable
-} from 'aurelia-framework';
-import {
-    EventAggregator
-} from 'aurelia-event-aggregator';
+import { inject, bindable } from 'aurelia-framework';
+import { EventAggregator } from 'aurelia-event-aggregator';
 
 @inject(EventAggregator)
 export class IngredientsListCustomElement {
 
-    constructor(EventAggregator, dirtyChecker) {
-        this.ea = EventAggregator;
-        this.ingredients = [{
+    constructor(eventAggregator) {
+        this.ea = eventAggregator;
+        this.ingredients = [
+            {
                 'name': 'brie',
                 'type': 'kaas',
                 'pref': 0
@@ -269,22 +265,13 @@ export class IngredientsListCustomElement {
         ];
     }
 
-    likeIngredient(ingredient) {
-        ingredient['pref'] = 1;
-        this.ea.publish('setPreference', ingredient);
+    likeIngredient(ingredient, i) {
+        ingredient.pref = (ingredient.pref === -1)? 0 : 1;
+        this.ea.publish('upPreference', ingredient);
     }
 
-    dislikeIngredient(ingredient) {
-        ingredient['pref'] = -1;
-        this.ea.publish('setPreference', ingredient);
-    }
-
-    resetIngredients() {
-        for (let ingredient in this.ingredients) {
-            if (object.let(ingredient)) {
-                ingredient.pref = 0;
-            }
-        }
-        this.ea.publish('setPreference', ingredient);
+    dislikeIngredient(ingredient, i) {
+        ingredient.pref = (ingredient.pref === 1)? 0 : -1;
+        this.ea.publish('downPreference', ingredient);
     }
 }

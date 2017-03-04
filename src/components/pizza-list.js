@@ -4,12 +4,9 @@ import { EventAggregator } from 'aurelia-event-aggregator';
 @inject(EventAggregator)
 export class PizzaListCustomElement {
 
-    constructor(EventAggregator) {
-        this.ea = EventAggregator;
+    constructor(eventAggregator) {
+        this.ea = eventAggregator;
         this.showList = true;
-        this.ea.subscribe('setPreference', response => {
-            this.updatePreferences(response);
-        });
         this.pizzas = [
             {
                 'naam': 'Napolitana',
@@ -717,26 +714,25 @@ export class PizzaListCustomElement {
                 'ingredienten': 'tomaten, kaas, mozzarella, parmaham, rucola, cherry tomaatjes'
             }
         ];
+        this.ea.subscribe('upPreference', response => {
+            this.updatePreferences(response, 1);
+        });
+        this.ea.subscribe('downPreference', response => {
+            this.updatePreferences(response, -1);
+        });
+
     }
-    this.updatePreferences(ingredient){
+
+    updatePreferences = function(ingredient, d){
         this.showList = !this.showList;
         for (let pizza of this.pizzas) {
             if (pizza.ingredienten.includes(ingredient.name)) {
-                ingredient.pref += ingredient.sortingWeight;
+                pizza.sortingWeight += d;
             }
         }
         setTimeout(() => {
             this.showList = !this.showList;
         }, 0);
-    };
-
-    this.resetPizzas() {
-        for (let pizza in this.pizzas) {
-            if (object.let(pizza)) {
-                pizza.sortingWeight = 0;
-            }
-        }
-        this.ea.publish('setPreference', pizza);
-    };
+    }
 
 }
