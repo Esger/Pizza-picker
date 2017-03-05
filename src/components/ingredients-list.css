@@ -6,11 +6,14 @@
   list-style-type: none;
 }
 .ingredients__buttonGroup{
-    display: flex;
+    /*display: flex;*/
+    position: relative;
+    display: block;
     border: 1px solid #e8e8e8;
     margin-bottom: 10px;
     background-color: #fff;
     border-radius: 4px;
+    min-height: 30px;
 }
 .ingredients__buttonGroup.kaas{
     background-color: cornsilk;
@@ -28,55 +31,78 @@
     background-color: lemonchiffon;
 }
 [class^=ingredients__button--]{
-    flex: 1 0 auto;
+    /*flex: 1 0 auto;*/
+    position: relative;
+    z-index: 1;
     border: none;
     outline: none;
     line-height: 18px;
+    padding: 5px 20px;
     background-color: transparent;
+    opacity: .2;
 }
 .ingredients__button--left, .ingredients__button--right{
     cursor: pointer;
     color: #c8c8c8;
     font-weight: bold;
 }
-[class^=ingredients__button--]{
-    opacity: .2;
-}
 .ingredients__button--left{
+    float: left;
+    font-size: 21px;
+    text-align: left;
+    padding-left: 20px;
     color: green;
 }
 .ingredients__button--right{
+    float: right;
+    font-size: 28px;
+    text-align: right;
+    padding-right: 20px;
+    margin-top: -3px;
     color: red;
 }
 [class^=ingredients__button--][disabled]{
     opacity: 1;
     cursor: auto;
 }
-.ingredients__button--left{
-    font-size: 21px;
-    text-align: left;
-    padding-left: 20px;
-}
-.ingredients__button--right{
-    font-size: 28px;
-    text-align: right;
-    padding-right: 20px;
-    margin-top: -3px;
-}
-.ingredients__button--label{
-  font-family: palatino cursive;
-  font-style: italic;
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-align: center;
-  color: #333;
-  opacity: 1;
-  text-shadow: 0 1px 1px #D9D9D9;
-  margin-top: 1px;
+.ingredients__label{
+    position: absolute;
+    top: 0;
+    font-family: palatino cursive;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #333;
+    opacity: 1;
+    text-shadow: 0 1px 1px #D9D9D9;
+    width: 100%;
+    z-index: 0;
 }
 .ingredients-list__type-item {
-  margin: 20px 0;
-  font-size: 18px;
-  text-transform: capitalize;
-  text-align: right;
+    margin: 20px 0;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: right;
+}
+@media screen and (max-width: 600px) {
+    .ingredients__buttonGroup{
+        min-height: 40px;
+    }
+    .ingredients__label {
+        line-height: 18px;
+        margin-top: 1px;
+    }
+    [class^=ingredients__button--]{
+        line-height: 18px;
+        padding: 10px 0;
+        opacity: .2;
+    }
+    .ingredients__button--left {
+        padding-left: 5px;
+    }
+    .ingredients__button--right {
+        padding-right: 5px;
+    }
 }

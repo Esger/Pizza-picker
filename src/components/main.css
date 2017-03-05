@@ -6,6 +6,7 @@ body,
 html {
     font-family: 'trebuchet MS', sans-serif;
     line-height: 1.2;
+    min-width: 320px;
     width: 100%;
     height: 100%;
 }
@@ -45,6 +46,17 @@ h2 {
     font-size: 28px;
 }
 
+
+/*------------------------------------*\
+#HELPERS
+\*------------------------------------*/
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /*------------------------------------*\
 #OBJECTS
 \*------------------------------------*/
@@ -66,19 +78,42 @@ h2 {
     -webkit-box-shadow: inset 0 0 15px 0 rgba(0, 0, 0, .3);
     box-shadow: inset 0 0 15px 0 rgba(0, 0, 0, .3);
 }
+
 .row__column--last {
     margin: 0 40px;
 }
+
 .row__column--2col {
     flex: 1 1 50%;
 }
 
-.button__reset {
-    border: 1px solid #e8e8e8;
-    background-color: #fff;
-    border-radius: 4px;
-    outline: none;
-    font-size: 24px;
-    line-height: 18px;
-    cursor: pointer;
+@media screen and (max-width: 600px) {
+    header,
+    footer {
+        flex: 0 0 40px;
+        padding: 0 20px;
+    }
+    h1 {
+        font-size: 24px;
+        color: white;
+    }
+    h2 {
+        margin: 10px 0;
+        font-size: 12px;
+    }
+    .hideMobile {
+        display: none;
+    }
+    .row__column {
+        margin: 0 10px 0 20px;
+        padding: 5px 10px;
+        -webkit-box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, .3);
+        box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, .3);
+    }
+    .row__column--last {
+        margin: 0 20px 0 10px;
+    }
+    .row__column--2col {
+        flex: 1 1 50%;
+    }
 }

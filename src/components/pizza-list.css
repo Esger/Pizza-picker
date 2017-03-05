@@ -33,3 +33,15 @@
   font-size: 15px;
   text-transform: capitalize;
 }
+@media screen and (max-width: 600px) {
+    .pizza-list__item {
+        margin: 10px 0;
+        font-size: 15px;
+    }
+    .pizza-list__item__title {
+        margin-left: 20px;
+    }
+    .pizza-list__item__ingredients {
+        margin: 3px 0 0 20px; {
+    }
+}
