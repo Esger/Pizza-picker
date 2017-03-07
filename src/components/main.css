@@ -1,6 +1,25 @@
 /*------------------------------------*\
 #GENERAL
 \*------------------------------------*/
+html {
+  font-size: 100%;
+}
+
+/* https://zellwk.com/blog/viewport-based-typography/ */
+/* Scales by 1px for every 100px from 600px onwards */
+@media (min-width: 600px) {
+    html {
+        font-size: calc(112.5% + 4 * (100vw - 600px) / 400)
+    }
+}
+
+/* Sets font-size to 22px after a viewport of 1000px */
+@media (min-width: 1000px) {
+    html{
+        font-size: calc(137.5%)
+    }
+}
+
 
 body,
 html {
@@ -37,13 +56,16 @@ footer {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 2.2em;
+    line-height: 1;
     color: white;
 }
 
 h2 {
-    margin: 20px 0;
-    font-size: 28px;
+    margin: 10px 0 20px;
+    font-size: 1.4em;
+    font-weight: normal;
+    line-height: 1;
 }
 
 
@@ -67,7 +89,7 @@ h2 {
 }
 
 .row__header {
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .row__column {
@@ -93,13 +115,8 @@ h2 {
         flex: 0 0 40px;
         padding: 0 20px;
     }
-    h1 {
-        font-size: 24px;
-        color: white;
-    }
     h2 {
-        margin: 10px 0;
-        font-size: 12px;
+        margin: 10px 0 10px;
     }
     .hideMobile {
         display: none;
