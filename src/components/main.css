@@ -63,6 +63,7 @@ h2 {
 
 .row {
     display: flex;
+    min-height: 0;
 }
 
 .row__header {
@@ -70,7 +71,6 @@ h2 {
 }
 
 .row__column {
-    flex: 1 1 auto;
     overflow-y: auto;
     margin: 0 20px 0 40px;
     padding: 10px 20px;
