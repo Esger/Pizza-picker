@@ -65,7 +65,7 @@
 .ingredients__label{
     position: absolute;
     top: 0;
-    font-family: palatino cursive;
+    font-family: palatino, cursive;
     font-style: italic;
     font-weight: bold;
     font-size: 1.1em;
@@ -91,6 +91,7 @@
     .ingredients__label {
         line-height: 18px;
         margin-top: 1px;
+        letter-spacing: 0;
     }
     [class^=ingredients__button--]{
         line-height: 18px;

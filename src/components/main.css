@@ -23,7 +23,7 @@ html {
 
 body,
 html {
-    font-family: 'trebuchet MS', sans-serif;
+    font-family: 'trebuchet MS', 'Roboto Condensed Regular', sans-serif;
     line-height: 1.2;
     min-width: 320px;
     width: 100%;
@@ -63,7 +63,7 @@ h1 {
 
 h2 {
     margin: 10px 0 20px;
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: normal;
     line-height: 1;
 }
