@@ -1,11 +1,31 @@
 /*------------------------------------*\
 #GENERAL
 \*------------------------------------*/
+html {
+  font-size: 100%;
+}
+
+/* https://zellwk.com/blog/viewport-based-typography/ */
+/* Scales by 1px for every 100px from 600px onwards */
+@media (min-width: 600px) {
+    html {
+        font-size: calc(112.5% + 4 * (100vw - 600px) / 400)
+    }
+}
+
+/* Sets font-size to 22px after a viewport of 1000px */
+@media (min-width: 1000px) {
+    html{
+        font-size: calc(137.5%)
+    }
+}
+
 
 body,
 html {
-    font-family: 'trebuchet MS', sans-serif;
+    font-family: 'trebuchet MS', 'Roboto Condensed Regular', sans-serif;
     line-height: 1.2;
+    min-width: 320px;
     width: 100%;
     height: 100%;
 }
@@ -36,13 +56,27 @@ footer {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 2.2em;
+    line-height: 1;
     color: white;
 }
 
 h2 {
-    margin: 20px 0;
-    font-size: 28px;
+    margin: 10px 0 20px;
+    font-size: 1.3em;
+    font-weight: normal;
+    line-height: 1;
+}
+
+
+/*------------------------------------*\
+#HELPERS
+\*------------------------------------*/
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /*------------------------------------*\
@@ -51,14 +85,14 @@ h2 {
 
 .row {
     display: flex;
+    min-height: 0;
 }
 
 .row__header {
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .row__column {
-    flex: 1 1 auto;
     overflow-y: auto;
     margin: 0 20px 0 40px;
     padding: 10px 20px;
@@ -66,19 +100,37 @@ h2 {
     -webkit-box-shadow: inset 0 0 15px 0 rgba(0, 0, 0, .3);
     box-shadow: inset 0 0 15px 0 rgba(0, 0, 0, .3);
 }
+
 .row__column--last {
     margin: 0 40px;
 }
+
 .row__column--2col {
     flex: 1 1 50%;
 }
 
-.button__reset {
-    border: 1px solid #e8e8e8;
-    background-color: #fff;
-    border-radius: 4px;
-    outline: none;
-    font-size: 24px;
-    line-height: 18px;
-    cursor: pointer;
+@media screen and (max-width: 600px) {
+    header,
+    footer {
+        flex: 0 0 40px;
+        padding: 0 20px;
+    }
+    h2 {
+        margin: 10px 0 10px;
+    }
+    .hideMobile {
+        display: none;
+    }
+    .row__column {
+        margin: 0 10px 0 20px;
+        padding: 5px 10px;
+        -webkit-box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, .3);
+        box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, .3);
+    }
+    .row__column--last {
+        margin: 0 20px 0 10px;
+    }
+    .row__column--2col {
+        flex: 1 1 50%;
+    }
 }

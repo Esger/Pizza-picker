@@ -258,7 +258,7 @@ export class IngredientsListCustomElement {
                 'pref': 0
             },
             {
-                'name': 'gemengd_fruit',
+                'name': 'gemengd fruit',
                 'type': 'fruit',
                 'pref': 0
             }
