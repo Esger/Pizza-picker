@@ -12,7 +12,6 @@
     margin-bottom: 10px;
     background-color: #fff;
     border-radius: 4px;
-    min-height: 30px;
 }
 .ingredients__buttonGroup.kaas{
     background-color: cornsilk;
@@ -30,11 +29,12 @@
     background-color: lemonchiffon;
 }
 [class^=ingredients__button--]{
+    position: absolute;;
+    display: block;
     width: 40%;
-    position: relative;
-    z-index: 1;
-    line-height: 18px;
-    padding: 5px 20px;
+    z-index: 0;
+    height: 100%;
+    line-height: 0;
     border: none;
     outline: none;
     background-color: transparent;
@@ -44,14 +44,14 @@
     font-weight: bold;
 }
 .ingredients__button--left{
-    float: left;
+    left: 0;
     font-size: 1.8em;
     text-align: left;
     padding-left: .4em;
     color: green;
 }
 .ingredients__button--right{
-    float: right;
+    right: 0;
     font-size: 2.4em;
     text-align: right;
     padding-right: .4em;
@@ -63,8 +63,7 @@
     cursor: auto;
 }
 .ingredients__label{
-    position: absolute;
-    top: 0;
+    margin: 5px 0;
     font-family: palatino, cursive;
     font-style: italic;
     font-weight: bold;
@@ -77,6 +76,7 @@
     text-shadow: 0 1px 1px #D9D9D9;
     width: 100%;
     z-index: 0;
+    pointer-events: none;
 }
 .ingredients-list__type-item {
     margin: 20px 0;
@@ -85,17 +85,11 @@
     text-align: right;
 }
 @media screen and (max-width: 600px) {
-    .ingredients__buttonGroup{
-        min-height: 40px;
-    }
     .ingredients__label {
         line-height: 18px;
-        margin-top: 1px;
         letter-spacing: 0;
     }
     [class^=ingredients__button--]{
-        line-height: 18px;
-        padding: 10px 0;
         opacity: .2;
     }
     .ingredients__button--left {
