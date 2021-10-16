@@ -6,6 +6,16 @@
   list-style-type: none;
 }
 
+li {
+
+  &.kaas+&.vlees,
+  &.vlees+&.vis,
+  &.vis+&.groente,
+  &.groente+&.fruit {
+    margin-top: 30px;
+  }
+}
+
 .ingredients__buttonGroup {
   --buttonColor   : cornsilk;
   position        : relative;

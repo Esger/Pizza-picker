@@ -21,7 +21,7 @@ html {
 }
 
 
-body,
+body.body,
 html {
   font-family: 'trebuchet MS', 'Roboto Condensed Regular', sans-serif;
   line-height: 1.2;
@@ -30,7 +30,7 @@ html {
   height     : 100%;
 }
 
-body {
+body.body {
   display         : flex;
   flex-direction  : column;
   align-items     : stretch;
@@ -49,13 +49,13 @@ footer {
   justify-content: space-between;
 }
 
-h1 {
+h1.pageTitle {
   font-size  : 2.2em;
   line-height: 1;
   color      : white;
 }
 
-h2 {
+h2.colTitle {
   margin     : 10px 0 20px;
   font-size  : 1.3em;
   font-weight: normal;
@@ -87,8 +87,7 @@ h2 {
   margin            : 0 20px 0 40px;
   padding           : 10px 20px;
   background-color  : white;
-  -webkit-box-shadow: inset 0 0 15px 0 rgba(0, 0, 0, .3);
-  box-shadow        : inset 0 0 15px 0 rgba(0, 0, 0, .3);
+  box-shadow        : inset 0 0 10px 0 rgba(0, 0, 0, .2);
 }
 
 .row__column--last {
@@ -101,8 +100,8 @@ h2 {
 
 @media screen and (max-width: 600px) {
 
-  header,
-  footer {
+  .header,
+  .footer {
     flex   : 0 0 40px;
     padding: 0 20px;
   }
@@ -118,7 +117,6 @@ h2 {
   .row__column {
     margin            : 0 10px 0 20px;
     padding           : 5px 10px;
-    -webkit-box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, .3);
     box-shadow        : inset 0 0 10px 0 rgba(0, 0, 0, .3);
   }
 
