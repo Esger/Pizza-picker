@@ -1,0 +1,130 @@
+/*------------------------------------*\
+#GENERAL
+\*------------------------------------*/
+html {
+  font-size: 100%;
+}
+
+/* https://zellwk.com/blog/viewport-based-typography/ */
+/* Scales by 1px for every 100px from 600px onwards */
+@media screen and (min-width: 600px) {
+  html {
+    font-size: calc(~'112.5% + 4 * (100vw - 600px) / 400');
+  }
+}
+
+/* Sets font-size to 22px after a viewport of 1000px */
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: calc(~'137.5%');
+  }
+}
+
+
+body.body,
+html {
+  font-family: 'trebuchet MS', 'Roboto Condensed Regular', sans-serif;
+  line-height: 1.2;
+  min-width  : 320px;
+  width      : 100%;
+  height     : 100%;
+}
+
+body.body {
+  display         : flex;
+  flex-direction  : column;
+  align-items     : stretch;
+  overflow        : hidden;
+  background-color: #00ae00;
+  background-image: linear-gradient(#00ae00 10%, white 50%, red 90%);
+}
+
+header.header,
+footer.footer {
+  flex           : 0 0 60px;
+  padding        : 0 20px;
+  display        : flex;
+  align-items    : center;
+  align-content  : center;
+  justify-content: space-between;
+}
+
+h1.pageTitle {
+  font-size  : 1.4em;
+  line-height: 1;
+  color      : white;
+}
+
+h2.colTitle {
+  margin     : 10px 0;
+  font-size  : 1em;
+  font-weight: normal;
+  line-height: 1;
+}
+
+
+/*------------------------------------*\
+#HELPERS
+\*------------------------------------*/
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear  : both;
+}
+
+/*------------------------------------*\
+#OBJECTS
+\*------------------------------------*/
+
+.row {
+  display   : flex;
+  min-height: 0;
+}
+
+.row__column {
+  overflow-y        : auto;
+  margin            : 0 20px 0 40px;
+  padding           : 10px 20px;
+  background-color  : white;
+  box-shadow        : inset 0 0 10px 0 rgba(0, 0, 0, .2);
+}
+
+.row__column--last {
+  margin: 0 40px;
+}
+
+.row__column--2col {
+  flex: 1 1 50%;
+}
+
+@media screen and (max-width: 600px) {
+
+  .header,
+  .footer {
+    flex   : 0 0 40px;
+    padding: 0 20px;
+  }
+
+  h2 {
+    margin: 10px 0 10px;
+  }
+
+  .hideMobile {
+    display: none;
+  }
+
+  .row__column {
+    margin            : 0 10px 0 20px;
+    padding           : 5px 10px;
+    box-shadow        : inset 0 0 10px 0 rgba(0, 0, 0, .3);
+  }
+
+  .row__column--last {
+    margin: 0 20px 0 10px;
+  }
+
+  .row__column--2col {
+    flex: 1 1 50%;
+  }
+}

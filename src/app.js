@@ -1,8 +1,8 @@
 export class App {
     constructor() {
         this.title = 'Pizza Picker';
-        this.subtitle = 'De beste pizzas!';
-        this.ingredientsTitle = 'Kies je beleg...';
+        this.subtitle = 'Pizzas';
+        this.ingredientsTitle = 'Toppings';
     }
 
     reset() {
