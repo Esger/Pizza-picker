@@ -14,27 +14,28 @@
   margin-bottom   : 10px;
   background-image: linear-gradient(to right, white 15%, var(--buttonColor) 50%, white 85%);
   border-radius   : 4px;
+
+  &.kaas {
+    --buttonColor: lightyellow;
+  }
+
+  &.vlees {
+    --buttonColor: bisque;
+  }
+
+  &.vis {
+    --buttonColor: cornsilk;
+  }
+
+  &.groente {
+    --buttonColor: honeydew;
+  }
+
+  &.fruit {
+    --buttonColor: lemonchiffon;
+  }
 }
 
-.ingredients__buttonGroup.kaas {
-  --buttonColor: lightyellow;
-}
-
-.ingredients__buttonGroup.vlees {
-  --buttonColor: bisque;
-}
-
-.ingredients__buttonGroup.vis {
-  --buttonColor: cornsilk;
-}
-
-.ingredients__buttonGroup.groente {
-  --buttonColor: honeydew;
-}
-
-.ingredients__buttonGroup.fruit {
-  --buttonColor: lemonchiffon;
-}
 
 [class^=ingredients__button--] {
   position        : absolute;
@@ -61,32 +62,30 @@
   }
 }
 
-
-
 .ingredients__button--left {
   left      : 0;
   text-align: left;
-}
 
-.ingredients__button--left::before {
-  content: '👍🏻';
-}
+  &::before {
+    content: '👍🏻';
+  }
 
-.ingredients__button--left[disabled]::before {
-  content: '👍'
+  &[disabled]::before {
+    content: '👍'
+  }
 }
 
 .ingredients__button--right {
   right     : 0;
   text-align: right;
-}
 
-.ingredients__button--right::before {
-  content: '👎🏻';
-}
+  &::before {
+    content: '👎🏻';
+  }
 
-.ingredients__button--right[disabled]::before {
-  content: '👎';
+  &[disabled]::before {
+    content: '👎';
+  }
 }
 
 .ingredients__label {
