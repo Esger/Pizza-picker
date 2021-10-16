@@ -1,14 +1,14 @@
 <template>
   <require from="resources/value-converters/sort-value-converter"></require>
-  <ul class="ingredients-list">
+  <ul class="ingredientsList">
     <li repeat.for="ingredient of ingredients"
-        class.one-time="ingredient.type">
-      <button-group class="ingredients__buttonGroup"
+        class="ingredient ${ingredient.type}">
+      <button-group class="ingredient__buttonGroup"
                     class.one-time="ingredient.type"
                     class="clearfix">
-        <button class="ingredients__button--right ${ingredient.pref < 0 ? 'active' : ''}" click.trigger="dislikeIngredient(ingredient)"></button>
-        <button class="ingredients__button--left ${ingredient.pref > 0 ? 'active' : ''}" click.trigger="likeIngredient(ingredient)"></button>
-        <div class="ingredients__label">${ingredient.name}</div>
+        <button class="ingredient__button--right ${ingredient.pref < 0 ? 'active' : ''}" click.trigger="dislikeIngredient(ingredient)"></button>
+        <button class="ingredient__button--left ${ingredient.pref > 0 ? 'active' : ''}" click.trigger="likeIngredient(ingredient)"></button>
+        <div class="ingredient__label">${ingredient.name}</div>
       </button-group>
     </li>
   </ul>
