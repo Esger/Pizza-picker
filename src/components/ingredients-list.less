@@ -37,7 +37,7 @@
 }
 
 
-[class^=ingredients__button--] {
+[class*=ingredients__button--] {
   position        : absolute;
   display         : block;
   width           : 40%;
@@ -53,7 +53,7 @@
   color           : black;
   mix-blend-mode  : luminosity;
 
-  &[disabled] {
+  &.active {
     mix-blend-mode: multiply;
   }
 

@@ -6,8 +6,8 @@
       <button-group class="ingredients__buttonGroup"
                     class.one-time="ingredient.type"
                     class="clearfix">
-        <button class="ingredients__button--right" click.trigger="dislikeIngredient(ingredient)" disabled.bind="ingredient.pref < 0"></button>
-        <button class="ingredients__button--left" click.trigger="likeIngredient(ingredient)" disabled.bind="ingredient.pref > 0"></button>
+        <button class="ingredients__button--right ${ingredient.pref < 0 ? 'active' : ''}" click.trigger="dislikeIngredient(ingredient)"></button>
+        <button class="ingredients__button--left ${ingredient.pref > 0 ? 'active' : ''}" click.trigger="likeIngredient(ingredient)"></button>
         <div class="ingredients__label">${ingredient.name}</div>
       </button-group>
     </li>
