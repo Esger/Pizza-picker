@@ -1,13 +1,15 @@
 <template>
-	<require from="components/ingredients-list.css"></require>
-	<require from="resources/value-converters/sort-value-converter"></require>
-	<ul class="ingredients-list">
-		<li repeat.for="ingredient of ingredients" class="">
-			<button-group class="ingredients__buttonGroup" class.bind="ingredient.type" class="clearfix">
-				<button class="ingredients__button--right" click.trigger="dislikeIngredient(ingredient)" disabled.bind="ingredient.pref < 0">&times;</button>
-				<button class="ingredients__button--left" click.trigger="likeIngredient(ingredient)" disabled.bind="ingredient.pref > 0">&check;</button>
-				<div class="ingredients__label">${ingredient.name}</div>
-			</button-group>
-		</li>
-	</ul>
+  <require from="resources/value-converters/sort-value-converter"></require>
+  <ul class="ingredientsList">
+    <li repeat.for="ingredient of ingredients"
+        class="ingredient ${ingredient.type}">
+      <button-group class="ingredient__buttonGroup"
+                    class.one-time="ingredient.type"
+                    class="clearfix">
+        <button class="ingredient__button--right ${ingredient.pref < 0 ? 'active' : ''}" click.trigger="dislikeIngredient(ingredient)"></button>
+        <button class="ingredient__button--left ${ingredient.pref > 0 ? 'active' : ''}" click.trigger="likeIngredient(ingredient)"></button>
+        <div class="ingredient__label">${ingredient.name}</div>
+      </button-group>
+    </li>
+  </ul>
 </template>
