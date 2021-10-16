@@ -2,3 +2,5 @@ node_modules
 scripts
 .idea
 .DS_STORE
+
+assets/app.css
