@@ -1,5 +1,7 @@
 <template>
   <require from="resources/value-converters/sort-value-converter"></require>
+
+  <h2 class="colTitle">${subtitle}</h2>
   <ul if.bind="showList && pizzasReady"
       class="pizza-list">
     <li class="pizza-list__item"
@@ -10,4 +12,5 @@
       <p class="pizza-list__item__ingredients">${pizza.ingredienten}</p>
     </li>
   </ul>
+
 </template>

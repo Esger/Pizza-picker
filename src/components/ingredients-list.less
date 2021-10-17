@@ -47,8 +47,21 @@ li {
   }
 }
 
+.buttonReset{
+  border          : none;
+  outline         : none;
+  background-color: transparent;
+  cursor          : pointer;
+  color           : black;
+}
+
+button.button--text{
+  .buttonReset;
+  text-decoration: underline;
+}
 
 button[class*=ingredient__button--] {
+  .buttonReset;
   position        : absolute;
   display         : block;
   width           : 40%;
@@ -56,12 +69,7 @@ button[class*=ingredient__button--] {
   padding         : 0;
   z-index         : 1;
   line-height     : 0;
-  border          : none;
-  outline         : none;
-  background-color: transparent;
-  cursor          : pointer;
   font-size       : 1.2em;
-  color           : black;
   filter          : grayscale(1);
 
   &.active {

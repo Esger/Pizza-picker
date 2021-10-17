@@ -8,13 +8,15 @@ export class IngredientsListCustomElement {
   constructor(eventAggregator, pizzaService) {
     this._eventAggregator = eventAggregator;
     this._pizzaService = pizzaService;
-    this.ingredients = [];
+    this.toppingsTitle = 'Toppings';
+    this.reset = 'Reset';
+    this.toppings = [];
     this.toppingsReady = false;
   }
 
   attached() {
     this.pizzasReadySubscription = this._eventAggregator.subscribe('pizzasReady', _ => {
-      this.ingredients = this._pizzaService.getToppings();
+      this.toppings = this._pizzaService.getToppings();
       this.toppingsReady = true;
     });
   }
@@ -23,32 +25,37 @@ export class IngredientsListCustomElement {
     this.pizzasReadySubscription.dispose();
   }
 
-  likeIngredient(ingredient) {
+  likeTopping(topping) {
     let newValue;
-    const oldValue = ingredient.pref;
-    switch (ingredient.pref) {
+    const oldValue = topping.pref;
+    switch (topping.pref) {
       case -1: newValue = 1; break;
       case 0: newValue = 1; break;
       case 1: newValue = 0; break;
       default: break;
     }
-    ingredient.pref = newValue;
-    ingredient.delta = newValue - oldValue;
-    this._eventAggregator.publish('updatePreference', ingredient);
+    topping.pref = newValue;
+    topping.delta = newValue - oldValue;
+    this._eventAggregator.publish('updatePreference', topping);
   }
 
-  dislikeIngredient(ingredient) {
+  dislikeTopping(topping) {
     let newValue;
-    const oldValue = ingredient.pref;
-    switch (ingredient.pref) {
+    const oldValue = topping.pref;
+    switch (topping.pref) {
       case -1: newValue = 0; break;
       case 0: newValue = -1; break;
       case 1: newValue = -1; break;
       default: break;
     }
-    ingredient.pref = newValue;
-    ingredient.delta = newValue - oldValue;
-    this._eventAggregator.publish('updatePreference', ingredient);
+    topping.pref = newValue;
+    topping.delta = newValue - oldValue;
+    this._eventAggregator.publish('updatePreference', topping);
+  }
+  
+  resetToppings() {
+    this.toppings.forEach(topping => topping.pref = 0);
+    this._eventAggregator.publish('updatePreference');
   }
 
 }

@@ -1,16 +1,19 @@
 <template>
   <require from="resources/value-converters/sort-value-converter"></require>
+  <h2 class="colTitle"><span>${toppingsTitle}</span><button class="button--text" click.delegate="resetToppings()">${reset}</button></h2>
+
   <ul if.bind="toppingsReady"
       class="ingredientsList">
-    <li repeat.for="ingredient of ingredients"
-        class="ingredient ${ingredient.type}">
+    <li repeat.for="topping of toppings"
+        class="topping ${topping.type}">
       <button-group class="ingredient__buttonGroup"
-                    class.one-time="ingredient.type"
+                    class.one-time="topping.type"
                     class="clearfix">
-        <button class="ingredient__button--right ${ingredient.pref < 0 ? 'active' : ''}" click.trigger="dislikeIngredient(ingredient)"></button>
-        <button class="ingredient__button--left ${ingredient.pref > 0 ? 'active' : ''}" click.trigger="likeIngredient(ingredient)"></button>
-        <div class="ingredient__label">${ingredient.name}</div>
+        <button class="ingredient__button--right ${topping.pref < 0 ? 'active' : ''}" click.trigger="dislikeTopping(topping)"></button>
+        <button class="ingredient__button--left ${topping.pref > 0 ? 'active' : ''}" click.trigger="likeTopping(topping)"></button>
+        <div class="ingredient__label">${topping.name}</div>
       </button-group>
     </li>
   </ul>
+
 </template>
