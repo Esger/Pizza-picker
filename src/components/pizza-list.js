@@ -25,6 +25,7 @@ export class PizzaListCustomElement {
 
   detached() {
     this.updatePreferenceSubscription.dispose();
+    this.pizzasReadySubscription.dispose();
   }
 
   _updatePreferences(ingredient) {

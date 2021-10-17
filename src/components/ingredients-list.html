@@ -1,6 +1,7 @@
 <template>
   <require from="resources/value-converters/sort-value-converter"></require>
-  <ul class="ingredientsList">
+  <ul if.bind="toppingsReady"
+      class="ingredientsList">
     <li repeat.for="ingredient of ingredients"
         class="ingredient ${ingredient.type}">
       <button-group class="ingredient__buttonGroup"

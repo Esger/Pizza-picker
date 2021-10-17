@@ -4,9 +4,4 @@ export class App {
         this.subtitle = 'Pizzas';
         this.ingredientsTitle = 'Toppings';
     }
-
-    reset() {
-        this.ingredientsViewModel.resetIngredients();
-        this.pizzasViewModel.resetPizzas();
-    }
 }
