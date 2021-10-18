@@ -1,0 +1,6 @@
+<template>
+    <h1 class="pageTitle">${title}</h1>
+    <select>
+      <option repeat.for="pizzeria of pizzerias" value="pizzeria.fileName">${pizzeria.name}</option>
+    </select>
+</template>

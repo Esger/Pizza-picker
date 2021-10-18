@@ -20,6 +20,7 @@ export class PizzaListCustomElement {
     });
     this.pizzasReadySubscription = this._eventAggregator.subscribe('pizzasReady', _ => {
       this.pizzas = this._pizzaService.getPizzas();
+      this.pizzas.forEach(pizza => pizza.sortingWeight = 0);
       this.pizzasReady = true;
     });
   }

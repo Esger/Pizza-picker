@@ -18,6 +18,7 @@ export class IngredientsListCustomElement {
     this.pizzasReadySubscription = this._eventAggregator.subscribe('pizzasReady', _ => {
       this.toppings = this._pizzaService.getToppings();
       this.toppingsReady = true;
+      this.toppings.forEach(topping => topping.pref = 0);
     });
   }
 
