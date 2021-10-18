@@ -47,22 +47,31 @@ li {
   }
 }
 
-
-button[class*=ingredient__button--] {
-  position        : absolute;
-  display         : block;
-  width           : 40%;
-  height          : 100%;
-  padding         : 0;
-  z-index         : 1;
-  line-height     : 0;
+.buttonReset {
   border          : none;
   outline         : none;
   background-color: transparent;
   cursor          : pointer;
-  font-size       : 1.2em;
   color           : black;
-  filter          : grayscale(1);
+  padding         : 0;
+}
+
+button.button--text {
+  .buttonReset;
+  text-decoration: underline;
+}
+
+button[class*=ingredient__button--] {
+  .buttonReset;
+  position   : absolute;
+  display    : block;
+  width      : 40%;
+  height     : 100%;
+  padding    : 0;
+  z-index    : 1;
+  line-height: 0;
+  font-size  : 1.2em;
+  filter     : grayscale(1);
 
   &.active {
     filter: grayscale(0);
@@ -89,7 +98,7 @@ button.ingredient__button--left {
 button.ingredient__button--right {
   right     : 0;
   text-align: left;
-  transform: scaleX(-1);
+  transform : scaleX(-1);
 
   &::before {
     content: '👎🏻';
@@ -108,7 +117,7 @@ button.ingredient__button--right {
   font-size     : 1em;
   line-height   : 1em;
   letter-spacing: 1px;
-  hyphens: auto;
+  hyphens       : auto;
   text-align    : center;
   color         : #333;
   opacity       : 1;
