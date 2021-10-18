@@ -1,5 +1,5 @@
+import { inject } from 'aurelia-framework';
 import { EventAggregator } from 'aurelia-event-aggregator';
-import { inject, bindable } from 'aurelia-framework';
 import { HttpClient } from 'aurelia-fetch-client';
 
 @inject(EventAggregator)
@@ -8,12 +8,12 @@ export class PizzaService {
   constructor(eventAggregator) {
     this._eventAggregator = eventAggregator;
     this._fetchPizzas();
+    this._eventAggregator.subscribe('loadPizzeria', pizzeria => this._fetchPizzas(pizzeria.fileName));
   }
 
-  _fetchPizzas() {
+  _fetchPizzas(fileName = 'napoli.json') {
     const httpClient = new HttpClient();
-    const fileName = '/assets/napoli.json';
-    httpClient.fetch(fileName)
+    httpClient.fetch('/assets/' + fileName)
       .then(response => {
         return response.json();
       })
