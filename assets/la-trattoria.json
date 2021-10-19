@@ -1,499 +1,499 @@
 {
   "pizzas": [
     {
-      "naam": "Pizza piccolo",
+      "naam": "Piccolo",
       "prijs": "6.50",
       "nummer": 1,
       "ingredienten": "Kinderpizza Met Tomaat, Kaas en Ham"
     },
     {
-      "naam": "Pizza Margherita",
+      "naam": "Margherita",
       "prijs": "7.50",
       "nummer": 2,
       "ingredienten": "Tomaat en Kaas"
     },
     {
-      "naam": "Pizza Svedese",
+      "naam": "Svedese",
       "prijs": "9.00",
       "nummer": 3,
       "ingredienten": "Tomaat, Kaas, Ham, Uien en Ei"
     },
     {
-      "naam": "Pizza Tombola",
+      "naam": "Tombola",
       "prijs": "9.00",
       "nummer": 4,
       "ingredienten": "Tomaat, Kaas, Extra Kaas, Ananas en Uien"
     },
     {
-      "naam": "Pizza 4 Stagione",
+      "naam": "4 Stagione",
       "prijs": "10.50",
       "nummer": 5,
       "ingredienten": "Tomaat, Kaas, Salami, Ham, Champignons, Ansjovis, Kappertjes en Olijven"
     },
     {
-      "naam": "Pizza Mista",
+      "naam": "Mista",
       "prijs": "11.50",
       "nummer": 6,
       "ingredienten": "Tomaat, Kaas, Champignons, Ham, Salami, Zalm en Garnalen"
     },
     {
-      "naam": "Pizza Svedese Speciale",
+      "naam": "Svedese Speciale",
       "prijs": "10.50",
       "nummer": 7,
       "ingredienten": "Tomaat, Kaas, Ham, Uien, Ei en Rosbief"
     },
     {
-      "naam": "Pizza Capricciosa",
+      "naam": "Capricciosa",
       "prijs": "11.75",
       "nummer": 8,
       "ingredienten": "Tomaat, Kaas, Paprika, Zalm, Garnalen, Salami en Ham"
     },
     {
-      "naam": "Pizza Carbonara Speciale",
+      "naam": "Carbonara Speciale",
       "prijs": "11.50",
       "nummer": 10,
       "ingredienten": "Tomaat, Kaas, Ham, Salami, Spek, Ei, Uien en Rosbief"
     },
     {
-      "naam": "Pizza Dinamite Molto Piccante",
+      "naam": "Dinamite Molto Piccante",
       "prijs": "7.00",
       "nummer": 11,
       "ingredienten": "Tomaat, Kaas, Tonijn, Asperges, Ham, Paprikasaus, Champignons, Verse Spaanse Pepers en Uien"
     },
     {
-      "naam": "Pizza Capricciosa Speciale",
+      "naam": "Capricciosa Speciale",
       "prijs": "13.00",
       "nummer": 12,
       "ingredienten": "Tomaat, Kaas, Garnalen, Zalm, Uien, Salami, Champignons, Ham, Paprika, Olijven en Ansjovis"
     },
     {
-      "naam": "Pizza Vesuvio",
+      "naam": "Vesuvio",
       "prijs": "9.25",
       "nummer": 15,
       "ingredienten": "Tomaat, Kaas, Salami en Champignons"
     },
     {
-      "naam": "Pizza Vulcano",
+      "naam": "Vulcano",
       "prijs": "9.75",
       "nummer": 16,
       "ingredienten": "Tomaat, Kaas, Ham en Champignons"
     },
     {
-      "naam": "Pizza Montanara",
+      "naam": "Montanara",
       "prijs": "9.75",
       "nummer": 17,
       "ingredienten": "Tomaat, Kaas, Ham, Salami en Champignons"
     },
     {
-      "naam": "Pizza Santa Lucia",
+      "naam": "Santa Lucia",
       "prijs": "10.25",
       "nummer": 18,
       "ingredienten": "Tomaat, Kaas, Ham, Salami, Artisjokken en Verse Spaanse Pepers"
     },
     {
-      "naam": "Pizza Regina",
+      "naam": "Regina",
       "prijs": "10.75",
       "nummer": 19,
       "ingredienten": "Tomaat, Kaas, Champignons en Rosbief"
     },
     {
-      "naam": "Pizza Campagnola",
+      "naam": "Campagnola",
       "prijs": "10.50",
       "nummer": 20,
       "ingredienten": "Tomaat, Kaas, Champignons, Ham, Paprika en Uien"
     },
     {
-      "naam": "Pizza Peperonata",
+      "naam": "Peperonata",
       "prijs": "10.00",
       "nummer": 21,
       "ingredienten": "Tomaat, Kaas, Paprikasaus, Ham en Uien"
     },
     {
-      "naam": "Pizza Paesana",
+      "naam": "Paesana",
       "prijs": "10.75",
       "nummer": 22,
       "ingredienten": "Tomaat, Kaas, Champignons, Ham, Salami, Spek en Uien"
     },
     {
-      "naam": "Pizza Santa Lucia Speciale",
+      "naam": "Santa Lucia Speciale",
       "prijs": "11.75",
       "nummer": 23,
       "ingredienten": "Tomaat, Kaas, Ham, Salami, Asperges, Champignons, Artisjokken, Verse Spaanse Pepers en Uien"
     },
     {
-      "naam": "Pizza Taormina",
+      "naam": "Taormina",
       "prijs": "12.25",
       "nummer": 24,
       "ingredienten": "Tomaat, Kaas, Ham, Uien, Artisjokken, Champignons, Paprika en Rosbief"
     },
     {
-      "naam": "Pizza Davide",
+      "naam": "Davide",
       "prijs": "12.00",
       "nummer": 25,
       "ingredienten": "Tomaat, Kaas, Zalm, Garnalen, Ansjovis, Uien en Paprika"
     },
     {
-      "naam": "Pizza Al Tonno Speciale",
+      "naam": "Al Tonno Speciale",
       "prijs": "13.50",
       "nummer": 26,
       "ingredienten": "Tomaat, Kaas, Tonijn In Kerriesaus, Champignons, Asperges, Paprikasaus, Uien, Artisjokken en Verse Spaanse Pepers"
     },
     {
-      "naam": "Pizza Gioco",
+      "naam": "Gioco",
       "prijs": "10.50",
       "nummer": 27,
       "ingredienten": "Tomaat, Kaas, Tonijn, Artisjokken, Olijven en Uien"
     },
     {
-      "naam": "Pizza Funghi",
+      "naam": "Funghi",
       "prijs": "8.50",
       "nummer": 28,
       "ingredienten": "Tomaat, Kaas en Champignons"
     },
     {
-      "naam": "Pizza Cipolle",
+      "naam": "Cipolle",
       "prijs": "8.00",
       "nummer": 29,
       "ingredienten": "Tomaat, Kaas, Uien en Verse Spaanse Pepers"
     },
     {
-      "naam": "Pizza Peperone",
+      "naam": "Peperone",
       "prijs": "10.25",
       "nummer": 30,
       "ingredienten": "Tomaat, Kaas, Champignons, Paprika, Verse Spaanse Pepers en Uien"
     },
     {
-      "naam": "Pizza Asparagi",
+      "naam": "Asparagi",
       "prijs": "10.75",
       "nummer": 31,
       "ingredienten": "Tomaat, Kaas, Paprika, Artisjokken, Asperges en Verse Tomaten"
     },
     {
-      "naam": "Pizza Francescana",
+      "naam": "Francescana",
       "prijs": "10.50",
       "nummer": 32,
       "ingredienten": "Tomaat, Kaas, Artisjokken, Kappertjes, Uien en Champignons"
     },
     {
-      "naam": "Pizza Napoletana",
+      "naam": "Napoletana",
       "prijs": "8.75",
       "nummer": 33,
       "ingredienten": "Tomaat, Kaas, Kappertjes en Ansjovis"
     },
     {
-      "naam": "Pizza Pescatore",
+      "naam": "Pescatore",
       "prijs": "10.50",
       "nummer": 34,
       "ingredienten": "Tomaat, Kaas, Tonijn, Uien en Olijven"
     },
     {
-      "naam": "Pizza Del Mare",
+      "naam": "Del Mare",
       "prijs": "10.00",
       "nummer": 35,
       "ingredienten": "Tomaat, Kaas en Zalm"
     },
     {
-      "naam": "Pizza Adriatica",
+      "naam": "Adriatica",
       "prijs": "10.75",
       "nummer": 36,
       "ingredienten": "Tomaat, Kaas, Garnalen, Ansjovis en Tonijn"
     },
     {
-      "naam": "Pizza Marinara",
+      "naam": "Marinara",
       "prijs": "10.50",
       "nummer": 37,
       "ingredienten": "tTomaat, Kaas, Zalm, Garnalen en Ansjovis"
     },
     {
-      "naam": "Pizza Funghi Alla Marinara",
+      "naam": "Funghi Alla Marinara",
       "prijs": "12.00",
       "nummer": 38,
       "ingredienten": "Tomaat, Kaas, Champignons, Garnalen, Zalm, Mosselen en Verse Spaanse Pepers"
     },
     {
-      "naam": "Pizza Frutti Di Mare",
+      "naam": "Frutti Di Mare",
       "prijs": "13.50",
       "nummer": 39,
       "ingredienten": "Tomaat, Kaas, Zalm ,Tonijn, Garnalen, Ansjovis, Kappertjes, Mosselen en Uien"
     },
     {
-      "naam": "Pizza Anguille",
+      "naam": "Anguille",
       "prijs": "14.50",
       "nummer": 40,
       "ingredienten": "Tomaat, Kaas, Paling, Uien, Kappertjes, Olijven, Garnalen en Tonijn"
     },
     {
-      "naam": "Pizza Hawaii",
+      "naam": "Hawaii",
       "prijs": "9.50",
       "nummer": 41,
       "ingredienten": "Tomaat, Kaas, Ham en Ananas"
     },
     {
-      "naam": "Pizza Salame",
+      "naam": "Salame",
       "prijs": "8.75",
       "nummer": 42,
       "ingredienten": "Tomaat, Kaas en Salami"
     },
     {
-      "naam": "Pizza Prosciutto",
+      "naam": "Prosciutto",
       "prijs": "8.75",
       "nummer": 43,
       "ingredienten": "Tomaat, Kaas en Ham"
     },
     {
-      "naam": "Pizza Carbonara",
+      "naam": "Carbonara",
       "prijs": "10.50",
       "nummer": 44,
       "ingredienten": "Tomaat, Kaas, Ham, Salami en Spek"
     },
     {
-      "naam": "Pizza Calzone",
+      "naam": "Calzone",
       "prijs": "10.50",
       "nummer": 45,
-      "ingredienten": "Dubbelgeslagen Pizza Met Tomaat, Kaas, Ham, Rosbief en Salami"
+      "ingredienten": "Dubbelgeslagen Met Tomaat, Kaas, Ham, Rosbief en Salami"
     },
     {
-      "naam": "Pizza Latteria",
+      "naam": "Latteria",
       "prijs": "11.00",
       "nummer": 47,
       "ingredienten": "Tomaat, Kaas, Mozzarella, Gorgonzola, Ansjovis en Verse Knoflook"
     },
     {
-      "naam": "Pizza Galbani",
+      "naam": "Galbani",
       "prijs": "12.00",
       "nummer": 48,
       "ingredienten": "Tomaat, Kaas, Paprika, Asperges, Ham, Uien, Artisjokken, Verse Knoflook, Verse Spaanse Pepers en Gorgonzola"
     },
     {
-      "naam": "Pizza Galbani Speciale",
+      "naam": "Galbani Speciale",
       "prijs": "14.00",
       "nummer": 49,
       "ingredienten": "Tomaat, Kaas, Paprikasaus, Champignons, Salami, Ham, Uien, Olijven, Asperges, Artisjokken, Verse Knoflook, Gorgonzola en Verse Spaanse Pepers"
     },
     {
-      "naam": "Pizza Latteria Speciale",
+      "naam": "Latteria Speciale",
       "prijs": "14.50",
       "nummer": 51,
       "ingredienten": "Tomaat, Kaas, Mozzarella, Champignons, Asperges, Artisjokken, Olijven, Garnalen, Tonijn In Kerrysaus, Uien en Verse Knoflook"
     },
     {
-      "naam": "Pizza Bel Fiore",
+      "naam": "Bel Fiore",
       "prijs": "11.00",
       "nummer": 52,
       "ingredienten": "Tomaat, Kaas, Pikante Salami, Broccoli en Mozzarella"
     },
     {
-      "naam": "Pizza Ricamo",
+      "naam": "Ricamo",
       "prijs": "10.50",
       "nummer": 53,
       "ingredienten": "Tomaat, Kaas, Pikante Salami en Artisjokken"
     },
     {
-      "naam": "Pizza Girotondo",
+      "naam": "Girotondo",
       "prijs": "10.00",
       "nummer": 54,
       "ingredienten": "Tomaat, Kaas, Spek, Mozzarella en Verse Spaanse Pepers"
     },
     {
-      "naam": "Pizza Casereccia",
+      "naam": "Casereccia",
       "prijs": "11.50",
       "nummer": 55,
       "ingredienten": "Tomaat, Kaas, Verse Knoflook, Gebakken Champignons, Verse Spaanse Pepers, Mozzarella en Gorgonzola"
     },
     {
-      "naam": "Pizza Amamlfi",
+      "naam": "Amamlfi",
       "prijs": "11.50",
       "nummer": 56,
       "ingredienten": "Tomaat, Kaas, Garnalen, Verse Paprika, Pikante Salami en Gorgonzola"
     },
     {
-      "naam": "Pizza Veliero",
+      "naam": "Veliero",
       "prijs": "11.50",
       "nummer": 57,
       "ingredienten": "Tomaat, Kaas, Mozzarella, Olijven, Gebakken Champignons, Artisjokken, Verse Spaanse Pepers en Ei"
     },
     {
-      "naam": "Pizza Saltimbacco",
+      "naam": "Saltimbacco",
       "prijs": "12.50",
       "nummer": 58,
       "ingredienten": "Tomaat, Kaas, Asperges, Uien, Olijven, Artisjokken, Verse Spaanse Pepers, Pikante Salami en Verse Paprika"
     },
     {
-      "naam": "Pizza Siciliana",
+      "naam": "Siciliana",
       "prijs": "12.50",
       "nummer": 59,
       "ingredienten": "Tomaat, Kaas, Paprika, Artisjokken, Asperges, Uien, Verse Spaanse Pepers, Olijven, Ei en Rosbief"
     },
     {
-      "naam": "Pizza Bel Fiore Speciale",
+      "naam": "Bel Fiore Speciale",
       "prijs": "11.50",
       "nummer": 60,
       "ingredienten": "Tomaat, Kaas, Pikante Salami, Mozzarella, Artisjokken en Asperges"
     },
     {
-      "naam": "Pizza Vegetarianissima",
+      "naam": "Vegetarianissima",
       "prijs": "11.50",
       "nummer": 61,
       "ingredienten": "Tomaat, Kaas, Asperges, Verse Paprika, Uien, Champignons, Artisjokken, Verse Tomaten en Spaanse Pepers"
     },
     {
-      "naam": "Pizza Desideri",
+      "naam": "Desideri",
       "prijs": "11.00",
       "nummer": 62,
       "ingredienten": "Tomaat, Kaas, Garnalen, Artisjokken, Verse Paprika en Olijven"
     },
     {
-      "naam": "Pizza La Trattoria",
+      "naam": "La Trattoria",
       "prijs": "14.00",
       "nummer": 63,
       "ingredienten": "Tomaat, Kaas, Rosbief, Salami, Ham, Spek, Artisjokken, Spaanse Pepers, Ei, Uien, Pikante Salami, Asperges, Gebakken Champignons en Mozzarella"
     },
     {
-      "naam": "Pizza Casalvelino",
+      "naam": "Casalvelino",
       "prijs": "11.50",
       "nummer": 64,
       "ingredienten": "Tomaat, Kaas, Spinazie, Mozzarella, Verse Spaanse Pepers, Tonijn en Gekookt Ei"
     },
     {
-      "naam": "Pizza Ascea",
+      "naam": "Ascea",
       "prijs": "11.00",
       "nummer": 65,
       "ingredienten": "Tomaat, Kaas, Spinazie, Ham, Mozzarella en Gorgonzola"
     },
     {
-      "naam": "Pizza Pioppi",
+      "naam": "Pioppi",
       "prijs": "11.50",
       "nummer": 66,
       "ingredienten": "Tomaat, Kaas, Spinazie, Asperges, Artisjokken, Mozzarella en Verse Spaanse Pepers"
     },
     {
-      "naam": "Pizza Acciaroli",
+      "naam": "Acciaroli",
       "prijs": "11.50",
       "nummer": 67,
       "ingredienten": "Tomaat, Kaas, Spinazie, Gebakken Champignons, Ham en Gorgonzola"
     },
     {
-      "naam": "Pizza Cilento",
+      "naam": "Cilento",
       "prijs": "10.00",
       "nummer": 68,
       "ingredienten": "Tomatensaus Met Artisjokken en Mozzarella"
     },
     {
-      "naam": "Pizza Suprema",
+      "naam": "Suprema",
       "prijs": "11.00",
       "nummer": 69,
       "ingredienten": "Tomatensaus Met Gorgonzola, Verse Spaanse Pepers, Asperges en Uien"
     },
     {
-      "naam": "Pizza Granoturco",
+      "naam": "Granoturco",
       "prijs": "10.75",
       "nummer": 70,
       "ingredienten": "Tomaat, Kaas, Mais, Gebakken Champignons en Ham"
     },
     {
-      "naam": "Pizza Careale",
+      "naam": "Careale",
       "prijs": "11.75",
       "nummer": 71,
       "ingredienten": "Tomaat, Kaas, Mais, Gorgonzola, Spinazie, Ham, Salami en Uien"
     },
     {
-      "naam": "Pizza Primavera",
+      "naam": "Primavera",
       "prijs": "11.00",
       "nummer": 72,
       "ingredienten": "Tomaat, Kaas, Mais, Pikante Salami Artisjokken en Asperges"
     },
     {
-      "naam": "Pizza Mozzarella",
+      "naam": "Mozzarella",
       "prijs": "8.75",
       "nummer": 73,
       "ingredienten": "Tomaat, Mozzarella en Oregano"
     },
     {
-      "naam": "Pizza Luciana",
+      "naam": "Luciana",
       "prijs": "13.50",
       "nummer": 83,
       "ingredienten": "Tomaat, Mozzarella, Broccoli, Spek, Spaanse Pepers, Pikante Salami, Uien, Ham en Mais"
     },
     {
-      "naam": "Pizza Stellana",
+      "naam": "Stellana",
       "prijs": "11.00",
       "nummer": 84,
       "ingredienten": "Tomaat, Kaas, Gorgonzola, Broccoli, Pepers en Artisjokken"
     },
     {
-      "naam": "Pizza Unicamente Vegetariana",
+      "naam": "Unicamente Vegetariana",
       "prijs": "13.00",
       "nummer": 85,
       "ingredienten": "Tomaat, Kaas, Mozzarella, Broccoli, Mais, Spinazie, Gebakken Champignons, Artisjokken en Verse Paprika"
     },
     {
-      "naam": "Pizza Carbonara Trattoria",
+      "naam": "Carbonara Trattoria",
       "prijs": "13.00",
       "nummer": 86,
       "ingredienten": "Tomaat, Kaas, Mozzarella, Salami, Pikante Salami, Spek, Ham, Ei, Uien en Rosbief"
     },
     {
-      "naam": "Pizza Con Carne",
+      "naam": "Con Carne",
       "prijs": "13.50",
       "nummer": 87,
       "ingredienten": "Verse Tomaten, Gorgonzola, Ossenhaas, Gebakken Champignons, Artisjokken, Spaanse Pepers en Verse Paprika"
     },
     {
-      "naam": "Pizza 4 Formaggi",
+      "naam": "4 Formaggi",
       "prijs": "11.50",
       "nummer": 88,
       "ingredienten": "Tomaat, Gorgonzola, Mozzarella, Parmezaanse Kaas en Geraspte Kaas"
     },
     {
-      "naam": "Pizza Craunara",
+      "naam": "Craunara",
       "prijs": "12.00",
       "nummer": 89,
       "ingredienten": "Tomaat, Kaas, Knoflook, Ham, Gorgonzola, Spaanse Pepers, Olijven, Uien, Mozzarella en Gebakken Champignons"
     },
     {
-      "naam": "Pizza Dei Mangioni",
+      "naam": "Dei Mangioni",
       "prijs": "15.00",
       "nummer": 90,
       "ingredienten": "Tomaat, Kaas, Champignons, Ham, Pikante Salami, Mozzarella, Gorgonzola, Artisjokken, Asperges, Uien en Ossenhaas"
     },
     {
-      "naam": "Pizza Del Bosco",
+      "naam": "Del Bosco",
       "prijs": "13.00",
       "nummer": 91,
       "ingredienten": "Tomaat, Kaas, Champignons, Ham, Pikante Salami, Mozzarella, Gorgonzola en Artisjokken"
     },
     {
-      "naam": "Pizza Meditteranea",
+      "naam": "Meditteranea",
       "prijs": "15.00",
       "nummer": 92,
       "ingredienten": "Tomaat, Kaas, Garnalen, Paling, Zalm, Champignons, Uien, Spaanse Pepers en Gorgonzola"
     },
     {
-      "naam": "Pizza Alla Frutta",
+      "naam": "Alla Frutta",
       "prijs": "11.00",
       "nummer": 93,
       "ingredienten": "Kaas, Fruitcocktail en Mozzarella"
     },
     {
-      "naam": "Pizza Pizzaiola",
+      "naam": "Pizzaiola",
       "prijs": "13.50",
       "nummer": 94,
       "ingredienten": "Tomaat, Kaas, Knoflook, Kappertjes, Pepers, Spinazie, Broccoli, Mais en Ossenhaas"
     },
     {
-      "naam": "Pizza Salernitana",
+      "naam": "Salernitana",
       "prijs": "12.00",
       "nummer": 95,
       "ingredienten": "Kaas, Vers Fruit en Gorgonzola"
     },
     {
-      "naam": "Pizza Sanza Fatica",
+      "naam": "Sanza Fatica",
       "prijs": "14.00",
       "nummer": 97,
       "ingredienten": "Tomaat, Kaas, Ossenhaas, Salami, Spek, Ham, Ananas, Paprika In Tomatensaus, Spaanse Pepers en Champignons"
     },
     {
-      "naam": "Pizza Mafiosa",
+      "naam": "Mafiosa",
       "prijs": "14.00",
       "nummer": 98,
       "ingredienten": "Tomaat, Kaas, Gorgonzola, Champignons, Ossenhaas, Salami, Paprika, Asperges en Spaanse Pepers"
@@ -502,46 +502,46 @@
       "naam": "Calzone Alla Gorgonzola",
       "prijs": "14.00",
       "nummer": 99,
-      "ingredienten": "Dubbelgeslagen Pizza Met Tomaat, Kaas, Ham, Salami, Spek, Peperonata en Gorgonzola"
+      "ingredienten": "Dubbelgeslagen Met Tomaat, Kaas, Ham, Salami, Spek, Peperonata en Gorgonzola"
     },
     {
-      "naam": "Pizza Battipaglia",
+      "naam": "Battipaglia",
       "prijs": "14.00",
       "nummer": 100,
       "ingredienten": "Tomaat, Kaas, Salami, Ham, Champignons, Uien en Ossenhaas"
     },
     {
-      "naam": "Pizza Policastro",
+      "naam": "Policastro",
       "prijs": "13.50",
       "nummer": 101,
       "ingredienten": "Tomaat, Mozzarella, Gorgonzola, Asperges, Parmezaanse Kaas, Champignons, Spaanse Pepers en Salami"
     },
     {
-      "naam": "Pizza Dell Accattone",
+      "naam": "Dell Accattone",
       "prijs": "14.50",
       "nummer": 103,
       "ingredienten": "Tomaat, Gorgonzola, Ossenhaas, Champignons, Spaanse Pepers, Paprika, Asperges, Parmezaanse Kaas, Salami en Ananas"
     },
     {
-      "naam": "Pizza Al Pacino",
+      "naam": "Al Pacino",
       "prijs": "15.00",
       "nummer": 104,
       "ingredienten": "Tomaat, Gorgonzola, Mozzarella, Champignons, Artisjokken, Ham, Perziken, Paprika, Ossenhaas en Pepers"
     },
     {
-      "naam": "Pizza La Finocchiata",
+      "naam": "La Finocchiata",
       "prijs": "13.50",
       "nummer": 105,
       "ingredienten": "Tomaat, Kaas, Venkel, Witlof, Mozzarella en Gorgonzola"
     },
     {
-      "naam": "Pizza Autunnale",
+      "naam": "Autunnale",
       "prijs": "12.00",
       "nummer": 106,
       "ingredienten": "Tomaat, Kaas, Spinazie, Ham, Artisjokken, Olijven, Knoflook en Pepers"
     },
     {
-      "naam": "Pizza Tutti Frutti",
+      "naam": "Tutti Frutti",
       "prijs": "13.50",
       "nummer": 107,
       "ingredienten": "Kaas, Bananen, Peren, Spek, Ham, Ananas en Perziken"
@@ -550,7 +550,7 @@
       "naam": "Calzone Du Frutti Vesuviana",
       "prijs": "13.50",
       "nummer": 108,
-      "ingredienten": "Dubbelgeslagen Pizza Met Peren, Ananas, Perziken, Ham, Mozzarella en Gorgonzola"
+      "ingredienten": "Dubbelgeslagen Met Peren, Ananas, Perziken, Ham, Mozzarella en Gorgonzola"
     }
   ],
   "toppings": [
