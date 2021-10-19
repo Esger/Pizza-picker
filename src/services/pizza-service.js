@@ -16,7 +16,7 @@ export class PizzaService {
 
   _fetchPizzas(fileName = 'napoli.json') {
     const httpClient = new HttpClient();
-    httpClient.fetch('/assets/' + fileName)
+    httpClient.fetch('assets/' + fileName)
       .then(response => {
         return response.json();
       })
