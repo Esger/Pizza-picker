@@ -8,7 +8,10 @@ export class PizzaService {
   constructor(eventAggregator) {
     this._eventAggregator = eventAggregator;
     this._fetchPizzas();
-    this._eventAggregator.subscribe('loadPizzeria', pizzeria => this._fetchPizzas(pizzeria.fileName));
+    this._eventAggregator.subscribe('loadPizzeria', pizzeria => {
+      this._pizzeria = pizzeria;
+      this._fetchPizzas(pizzeria.fileName);
+    });
   }
 
   _fetchPizzas(fileName = 'napoli.json') {
@@ -32,4 +35,7 @@ export class PizzaService {
     return this._toppings;
   }
 
+  getPizzeria() {
+    return this._pizzeria.name;
+  }
 }

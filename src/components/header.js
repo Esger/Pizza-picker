@@ -16,11 +16,11 @@ export class HeaderCustomElement {
         fileName: 'la-trattoria.json'
       }
     ];
-    this.selectedPizzeria;
+    this.selectedPizzeria = this.pizzerias[0];
   }
 
-  selectedPizzeriaChanged(oldValue, newValue) {
-    console.log(newValue);
+  attached() {
+    this.loadPizzeria()
   }
 
   loadPizzeria() {
