@@ -1,23 +1,19 @@
 <template>
+  <require from="components/header"></require>
   <require from="components/pizza-list"></require>
   <require from="components/ingredients-list"></require>
   <require from="components/footer"></require>
 
-  <header class="header">
-    <h1 class="pageTitle">${title}</h1>
-  </header>
+  <header class="header"></header>
   
   <main class="row">
     
     <section class="row__column row__column--2col">
-      <h2 class="colTitle">${subtitle}</h2>
-      <pizza-list view-model.ref="pizzasViewModel"></pizza-list>
+      <pizza-list></pizza-list>
     </section>
     
     <section class="row__column row__column--2col row__column--last">
-      <h2 class="colTitle">${ingredientsTitle}</h2>
-      <!-- <ingredients-list ingredients.bind="ingredients"></ingredients-list> -->
-      <ingredients-list view-model.ref="ingredientsViewModel"></ingredients-list>
+      <ingredients-list></ingredients-list>
     </section>
     
   </main>

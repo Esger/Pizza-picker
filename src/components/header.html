@@ -1,0 +1,9 @@
+<template>
+    <h1 class="pageTitle">${title}</h1>
+    <select value.bind="selectedPizzeria"
+        change.trigger="loadPizzeria()">
+      <option repeat.for="pizzeria of pizzerias"
+        model.bind="pizzeria"
+        selected.one-time="$first">${pizzeria.name}</option>
+    </select>
+</template>

@@ -84,7 +84,14 @@
       ]
     },
     "options": {
-      "minify": "stage & prod",
+      "minify": {
+        "prod": {
+          "output": {
+            "max_line_len": 1000000
+          }
+        },
+        "stage": false
+      },
       "sourcemaps": "dev & stage"
     },
     "bundles": [
@@ -107,6 +114,7 @@
           "aurelia-dependency-injection",
           "aurelia-event-aggregator",
           "aurelia-framework",
+          "aurelia-fetch-client",
           "aurelia-history",
           "aurelia-history-browser",
           "aurelia-loader",
