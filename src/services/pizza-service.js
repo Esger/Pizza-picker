@@ -14,9 +14,9 @@ export class PizzaService {
     });
   }
 
-  _fetchPizzas(fileName = 'napoli.json') {
+  _fetchPizzas(fileName = 'rossini.json') {
     const httpClient = new HttpClient();
-    httpClient.fetch('assets/' + fileName)
+    httpClient.fetch('assets/json/' + fileName)
       .then(response => {
         return response.json();
       })
