@@ -1,0 +1,435 @@
+{
+  "pizzas": [
+    {
+      "nummer": "1",
+      "naam": "Margherita",
+      "ingredienten": "Tomaten en kaas",
+      "prijs": "€ 6.20"
+    },
+    {
+      "nummer": "2",
+      "naam": "Salame",
+      "ingredienten": "Tomaten, kaas en salami",
+      "prijs": "€ 7.20"
+    },
+    {
+      "nummer": "3",
+      "naam": "Prosciutto",
+      "ingredienten": "Tomaten, kaas en ham",
+      "prijs": "€ 7.20"
+    },
+    {
+      "nummer": "4",
+      "naam": "Funghi",
+      "ingredienten": "Tomaten, kaas en champignons",
+      "prijs": "€ 6.80"
+    },
+    {
+      "nummer": "5",
+      "naam": "Hawai",
+      "ingredienten": "Tomaten, kaas, ham en ananas",
+      "prijs": "€ 8.20"
+    },
+    {
+      "nummer": "6",
+      "naam": "Vesuvio",
+      "ingredienten": "Tomaten, kaas, champignons en salami",
+      "prijs": "€ 8.20"
+    },
+    {
+      "nummer": "7",
+      "naam": "Vulcano",
+      "ingredienten": "Tomaten, kaas, champignons en ham",
+      "prijs": "€ 8.20"
+    },
+    {
+      "nummer": "8",
+      "naam": "Tropica",
+      "ingredienten": "Tomaten, kaas, diversen fruit, mozzarella en basilicum",
+      "prijs": "€ 10.50"
+    },
+    {
+      "nummer": "9",
+      "naam": "Vegetariana",
+      "ingredienten": "Tomaten, kaas, champignons, paprika en uien",
+      "prijs": "€ 8.90"
+    },
+    {
+      "nummer": "10",
+      "naam": "Montanara",
+      "ingredienten": "Tomaten, kaas, ham, salami en champignons",
+      "prijs": "€ 9.00"
+    },
+    {
+      "nummer": "11",
+      "naam": "Marbella",
+      "ingredienten": "Tomaten, kaas, champignons, mozzarella, gorgonzola, pepers en basilicum",
+      "prijs": "€ 9.50"
+    },
+    {
+      "nummer": "12",
+      "naam": "Quattro Formaggi",
+      "ingredienten": "Tomaten met 4 soorten kaas",
+      "prijs": "€ 9.50"
+    },
+    {
+      "nummer": "13",
+      "naam": "Svedese",
+      "ingredienten": "Tomaten, kaas, ham, uien, ei en rosbief",
+      "prijs": "€ 9.20"
+    },
+    {
+      "nummer": "14",
+      "naam": "Quattro Stagioni",
+      "ingredienten": "Tomaten, kaas, champignons, ham, artisjokken, mozzarella en Spaanse pepers",
+      "prijs": "€ 9.20"
+    },
+    {
+      "nummer": "15",
+      "naam": "Vegetariana fantasia",
+      "ingredienten": "Tomaten, kaas, mozzarella, broccoli, mais, spinazie, asperges, champignons, paprika, artisjokken en pepers",
+      "prijs": "€ 11.50"
+    },
+    {
+      "nummer": "16",
+      "naam": "Capricciosa",
+      "ingredienten": "Tomaten, kaas, champignons, ham, salami, paprika, uien, garnalen, olijven en pepers",
+      "prijs": "€ 10.20"
+    },
+    {
+      "nummer": "17",
+      "naam": "Quattro Stagioni speciale",
+      "ingredienten": "Tomaten, kaas, champignons, ham, salami, artisjokken, olijven, kappertjes, mozzarella, gorgonzola en asperges",
+      "prijs": "€ 10.50"
+    },
+    {
+      "nummer": "18",
+      "naam": "Pollo",
+      "ingredienten": "Tomaten, kaas, kipfilet, paprika, uien, gorgonzola en pepers",
+      "prijs": "€ 10.60"
+    },
+    {
+      "nummer": "19",
+      "naam": "Campagnola",
+      "ingredienten": "Tomaten, kaas, ham, champignons, paprika en uien",
+      "prijs": "€ 9.30"
+    },
+    {
+      "nummer": "20",
+      "naam": "Paesana con gorgonzola",
+      "ingredienten": "Tomaten, kaas, champignons, spek, ham, uien, gorgonzola en chorizo",
+      "prijs": "€ 9.90"
+    },
+    {
+      "nummer": "21",
+      "naam": "Pioppi",
+      "ingredienten": "Tomaten, kaas, mozzarella, spinazie, asperges, pepers en artisjokken",
+      "prijs": "€ 9.30"
+    },
+    {
+      "nummer": "22",
+      "naam": "Carbonara",
+      "ingredienten": "Tomaten, kaas, ham, salami, spek, ei en uien",
+      "prijs": "€ 9.20"
+    },
+    {
+      "nummer": "23",
+      "naam": "Carbonara Speciale",
+      "ingredienten": "Tomaten, kaas, ham, salami, spek, uien, chorizo, rosbief, ei en mozzarella",
+      "prijs": "€ 10.80"
+    },
+    {
+      "nummer": "24",
+      "naam": "Mista",
+      "ingredienten": "Tomaten, kaas, champignons, ham, salami, zalm en garnalen",
+      "prijs": "€ 9.80"
+    },
+    {
+      "nummer": "25",
+      "naam": "Del Bosco",
+      "ingredienten": "Tomaten, kaas, champignons, ham, chorizo, mozzarella, gorgonzola en artisjokken",
+      "prijs": "€ 9.90"
+    },
+    {
+      "nummer": "26",
+      "naam": "Americana",
+      "ingredienten": "Tomaten, kaas, champignons, paprika, uien, bolognese, spek en Parmezaanse kaas",
+      "prijs": "€ 10.20"
+    },
+    {
+      "nummer": "27",
+      "naam": "Santa Lucia",
+      "ingredienten": "Tomaten, kaas, champignons, ham, salami, asperges, artisjokken, uien en pepers",
+      "prijs": "€ 10.20"
+    },
+    {
+      "nummer": "28",
+      "naam": "Della Casa",
+      "ingredienten": "Tomaten, kaas, champignons, salami, ham, spek, ei, mozzarella, artisjokken, chorizo, asperges, paprika, Parmezaanse kaas en pepers",
+      "prijs": "€ 11.80"
+    },
+    {
+      "nummer": "29",
+      "naam": "Mafiosa",
+      "ingredienten": "Tomaten, kaas, ham, salami, champignons, chorizo, asperges, paprika, Parmezaanse kaas en pepers",
+      "prijs": "€ 10.90"
+    },
+    {
+      "nummer": "30",
+      "naam": "Galbani",
+      "ingredienten": "Tomaten, kaas, champignons, ham, salami, paprika, uien, asperges, olijven, artisjokken, knoflook, gorgonzola en pepers",
+      "prijs": "€ 11.20"
+    },
+    {
+      "nummer": "31",
+      "naam": "Della Mamma",
+      "ingredienten": "Tomaten, kaas, champignons, ham, ananas, ossenhaas, spek, gorgonzola, mozzarella, verse tomaat en pepers",
+      "prijs": "€ 12.80"
+    },
+    {
+      "nummer": "32",
+      "naam": "Del Papa",
+      "ingredienten": "Tomaten, kaas, champignons, ossenhaas, paprika, uien, asperges, artisjokken, pepers en basilicum",
+      "prijs": "€ 11.00"
+    },
+    {
+      "nummer": "33",
+      "naam": "Calzone",
+      "ingredienten": "Dubbelgeslagen pizza met tomaten, kaas, salami, ham, verse mozzarella en spek",
+      "prijs": "€ 9.00"
+    },
+    {
+      "nummer": "34",
+      "naam": "Calzone Pescatore",
+      "ingredienten": "Dubbelgeslagen pizza met tomaten, kaas, tonijn, uien, garnalen, knoflook en zalm",
+      "prijs": "€ 9.80"
+    },
+    {
+      "nummer": "35",
+      "naam": "Calzone Piccante",
+      "ingredienten": "Dubbelgeslagen pizza met tomaten, kaas, chorizo,uien, spek, ham, pepers en gorgonzola",
+      "prijs": "€ 9.80"
+    },
+    {
+      "nummer": "36",
+      "naam": "Tonno",
+      "ingredienten": "Tomaten, kaas, tonijn, uien en knoflook",
+      "prijs": "€ 8.00"
+    },
+    {
+      "nummer": "37",
+      "naam": "Napoletana",
+      "ingredienten": "Tomaten, kaas, verse tomaat, mozzarella, ansjovis, kappertjes en basilicum",
+      "prijs": "€ 9.50"
+    },
+    {
+      "nummer": "38",
+      "naam": "Frutti di Mare",
+      "ingredienten": "Tomaten, kaas, zalm, tonijn, garnalen, mosselen, ansjovis, knoflook en uien",
+      "prijs": "€ 9.90"
+    },
+    {
+      "nummer": "39",
+      "naam": "Dinamite",
+      "ingredienten": "Tomaten, kaas, champignons, uien, ham, paprika, tonijn, asperges en pepers",
+      "prijs": "€ 9.90"
+    },
+    {
+      "nummer": "40",
+      "naam": "Granata",
+      "ingredienten": "Tomaten, kaas, tonijn, garnalen, uien, artisjokken, asperges, olijven, mozzarella, knoflook en pepers",
+      "prijs": "€ 11.20"
+    },
+    {
+      "nummer": "41",
+      "naam": "Del Nonno",
+      "ingredienten": "Tomaten, kaas, garnalen, zalm, ansjovis mosselen, ham, paprika, uien, artisjokken en pepers",
+      "prijs": "€ 12.80"
+    },
+    {
+      "nummer": "42",
+      "naam": "Roma",
+      "ingredienten": "Tomaten, kaas, verse tomaat, kaas, mozzarella, knoflook, basilicum, spinazie, artisjokken en olijven",
+      "prijs": "€ 10.50"
+    },
+    {
+      "nummer": "43",
+      "naam": "Della Nonna",
+      "ingredienten": "Tomaten, kaas, verse tomaat, mozzarella, basilicum, chorizo, spek, olijven, knoflook, ham en broccoli",
+      "prijs": "€ 11.50"
+    },
+    {
+      "nummer": "44",
+      "naam": "Genova",
+      "ingredienten": "Tomaten, kaas, verse tomaat, mozzarella, gorgonzola, basilicum, knoflook, olijven, kappertjes, rosbief, paprika en asperges",
+      "prijs": "€ 11.50"
+    },
+    {
+      "nummer": "45",
+      "naam": "Zagalo",
+      "ingredienten": "Tomaten, kaas, verse tomaat, mozzarella, chorizo, spek, pepers, knoflook, rucola en ossenhaas",
+      "prijs": "€ 12.00"
+    },
+    {
+      "nummer": "46",
+      "naam": "Rossini",
+      "ingredienten": "Tomaten, kaas, verse tomaat, mozzarella, gorgonzola, basilicum, champignons, paprika, uien, ossenhaas, rosbief, knoflook, pepers, asperges, artisjokken, kipfilet en spek",
+      "prijs": "€ 15.00"
+    },
+    {
+      "nummer": "47",
+      "naam": "Fantasia del cliente",
+      "ingredienten": "Tomaten, kaas en zoals u hem samenstelt!"
+    }
+  ],
+  "toppings": [
+    {
+      "name": "gorgonzola",
+      "type": "kaas"
+    },
+    {
+      "name": "kaas",
+      "type": "kaas"
+    },
+    {
+      "name": "mozzarella",
+      "type": "kaas"
+    },
+    {
+      "name": "parmezaanse kaas",
+      "type": "kaas"
+    },
+    {
+      "name": "bolognese",
+      "type": "vlees"
+    },
+    {
+      "name": "chorizo",
+      "type": "vlees"
+    },
+    {
+      "name": "ei",
+      "type": "vlees"
+    },
+    {
+      "name": "ham",
+      "type": "vlees"
+    },
+    {
+      "name": "kipfilet",
+      "type": "vlees"
+    },
+    {
+      "name": "ossenhaas",
+      "type": "vlees"
+    },
+    {
+      "name": "rosbief",
+      "type": "vlees"
+    },
+    {
+      "name": "salami",
+      "type": "vlees"
+    },
+    {
+      "name": "spek",
+      "type": "vlees"
+    },
+    {
+      "name": "ansjovis",
+      "type": "vis"
+    },
+    {
+      "name": "garnalen",
+      "type": "vis"
+    },
+    {
+      "name": "mosselen",
+      "type": "vis"
+    },
+    {
+      "name": "tonijn",
+      "type": "vis"
+    },
+    {
+      "name": "zalm",
+      "type": "vis"
+    },
+    {
+      "name": "artisjokken",
+      "type": "groente"
+    },
+    {
+      "name": "asperges",
+      "type": "groente"
+    },
+    {
+      "name": "basilicum",
+      "type": "groente"
+    },
+    {
+      "name": "broccoli",
+      "type": "groente"
+    },
+    {
+      "name": "champignons",
+      "type": "groente"
+    },
+    {
+      "name": "kappertjes",
+      "type": "groente"
+    },
+    {
+      "name": "knoflook",
+      "type": "groente"
+    },
+    {
+      "name": "mais",
+      "type": "groente"
+    },
+    {
+      "name": "olijven",
+      "type": "groente"
+    },
+    {
+      "name": "paprika",
+      "type": "groente"
+    },
+    {
+      "name": "pepers",
+      "type": "groente"
+    },
+    {
+      "name": "rucola",
+      "type": "groente"
+    },
+    {
+      "name": "spaanse pepers",
+      "type": "groente"
+    },
+    {
+      "name": "spinazie",
+      "type": "groente"
+    },
+    {
+      "name": "tomaten",
+      "type": "groente"
+    },
+    {
+      "name": "uien",
+      "type": "groente"
+    },
+    {
+      "name": "verse tomaat",
+      "type": "groente"
+    },
+    {
+      "name": "ananas",
+      "type": "fruit"
+    },
+    {
+      "name": "diversen fruit",
+      "type": "fruit"
+    }
+  ]
+}
