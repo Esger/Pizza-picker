@@ -2,61 +2,61 @@
 #GENERAL
 \*------------------------------------*/
 html {
-  font-size: 100%;
+    font-size: 100%;
 }
 
 /* https://zellwk.com/blog/viewport-based-typography/ */
 /* Scales by 1px for every 100px from 600px onwards */
 @media screen and (min-width: 600px) {
-  html {
-    font-size: calc(~'112.5% + 4 * (100vw - 600px) / 400');
-  }
+    html {
+        font-size: calc(~'112.5% + 4 * (100vw - 600px) / 400');
+    }
 }
 
 /* Sets font-size to 22px after a viewport of 1000px */
 @media screen and (min-width: 1000px) {
-  html {
-    font-size: calc(~'137.5%');
-  }
+    html {
+        font-size: calc(~'137.5%');
+    }
 }
 
 
 body.body,
 html {
-  font-family: 'trebuchet MS', 'Roboto Condensed Regular', sans-serif;
-  line-height: 1.2;
-  min-width  : 320px;
-  width      : 100%;
-  height     : 100%;
+    font-family: 'trebuchet MS', 'Roboto Condensed Regular', sans-serif;
+    line-height: 1.2;
+    min-width  : 320px;
+    width      : 100%;
+    height     : 100%;
 }
 
 body.body {
-  display         : flex;
-  flex-direction  : column;
-  align-items     : stretch;
-  overflow        : hidden;
-  background-color: #00ae00;
-  background-image: linear-gradient(#008c45 32%, #f4f5f0 34% 65%, #cd212a 67%);
+    display         : flex;
+    flex-direction  : column;
+    align-items     : stretch;
+    overflow        : hidden;
+    background-color: #00ae00;
+    background-image: linear-gradient(#008c45 32%, #f4f5f0 34% 65%, #cd212a 67%);
 }
 
 header.header,
 footer.footer {
-  flex           : 0 0 60px;
-  padding        : 0 40px;
-  display        : flex;
-  align-items    : center;
-  align-content  : center;
-  justify-content: space-between;
+    flex           : 0 0 60px;
+    padding        : 0 40px;
+    display        : flex;
+    align-items    : center;
+    align-content  : center;
+    justify-content: space-between;
 }
 
 h2.colTitle {
-  display        : flex;
-  justify-content: space-between;
-  align-items    : center;
-  margin         : 10px 0;
-  font-size      : 1em;
-  font-weight    : normal;
-  line-height    : 1;
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    margin         : 10px 0;
+    font-size      : 1em;
+    font-weight    : normal;
+    line-height    : 1;
 }
 
 
@@ -65,9 +65,9 @@ h2.colTitle {
 \*------------------------------------*/
 
 .clearfix:after {
-  content: "";
-  display: table;
-  clear  : both;
+    content: "";
+    display: table;
+    clear  : both;
 }
 
 /*------------------------------------*\
@@ -75,55 +75,63 @@ h2.colTitle {
 \*------------------------------------*/
 
 .row {
-  display   : flex;
-  min-height: 0;
+    display   : flex;
+    min-height: 0;
 }
 
 .row__column {
-  overflow-y         : auto;
-  margin             : 0 20px 0 40px;
-  padding            : 10px 20px;
-  background-color   : white;
-  box-shadow         : inset 0 0 10px 0 rgba(0, 0, 0, .2);
-  background-image   : url('bg_medium.jpg');
-  background-position: center;
+    position        : relative;
+    overflow-y      : auto;
+    margin          : 0 20px 0 40px;
+    padding         : 10px 20px;
+    background-color: white;
+    box-shadow      : inset 0 0 10px 0 rgba(0, 0, 0, .2);
+
+    &:before {
+        content         : '';
+        position        : absolute;
+        inset           : 0;
+        background-image: url('bg_medium.jpg');
+        background-size : cover;
+        opacity         : .7;
+    }
 }
 
 .row__column--last {
-  margin: 0 40px;
+    margin: 0 40px;
 }
 
 .row__column--2col {
-  flex: 1 1 50%;
+    flex: 1 1 50%;
 }
 
 @media screen and (max-width: 600px) {
 
-  header.header,
-  footer.footer {
-    flex   : 0 0 40px;
-    padding: 0 20px;
-  }
+    header.header,
+    footer.footer {
+        flex   : 0 0 40px;
+        padding: 0 20px;
+    }
 
-  h2 {
-    margin: 10px 0 10px;
-  }
+    h2 {
+        margin: 10px 0 10px;
+    }
 
-  .hideMobile {
-    display: none;
-  }
+    .hideMobile {
+        display: none;
+    }
 
-  .row__column {
-    margin    : 0 10px 0 20px;
-    padding   : 5px 10px;
-    box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, .3);
-  }
+    .row__column {
+        margin    : 0 10px 0 20px;
+        padding   : 5px 10px;
+        box-shadow: inset 0 0 10px 0 rgba(0, 0, 0, .3);
+    }
 
-  .row__column--last {
-    margin: 0 20px 0 10px;
-  }
+    .row__column--last {
+        margin: 0 20px 0 10px;
+    }
 
-  .row__column--2col {
-    flex: 1 1 50%;
-  }
+    .row__column--2col {
+        flex: 1 1 50%;
+    }
 }

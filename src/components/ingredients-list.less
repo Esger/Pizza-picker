@@ -1,134 +1,138 @@
 /*------------------------------------*\
   #INGREDIENTS-LIST
 \*------------------------------------*/
+pizza-list,
+ingredients-list {
+    position: relative;
+}
 
 .ingredientsList {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 li {
-  background-color: white;
+    background-color: white;
 
-  &.kaas+&.vlees,
-  &.vlees+&.vis,
-  &.vis+&.groente,
-  &.groente+&.fruit {
-    margin-top: 30px;
-  }
+    &.kaas+&.vlees,
+    &.vlees+&.vis,
+    &.vis+&.groente,
+    &.groente+&.fruit {
+        margin-top: 30px;
+    }
 }
 
 .ingredient__buttonGroup {
-  --buttonColor   : cornsilk;
-  position        : relative;
-  display         : block;
-  border          : 1px solid #e8e8e8;
-  margin-bottom   : 10px;
-  background-image: linear-gradient(to right, white 15%, var(--buttonColor) 50%, white 85%);
-  border-radius   : 4px;
+    --buttonColor   : cornsilk;
+    position        : relative;
+    display         : block;
+    border          : 1px solid #e8e8e8;
+    margin-bottom   : 10px;
+    background-image: linear-gradient(to right, white 15%, var(--buttonColor) 50%, white 85%);
+    border-radius   : 4px;
 
-  &.kaas {
-    --buttonColor: lightyellow;
-  }
+    &.kaas {
+        --buttonColor: lightyellow;
+    }
 
-  &.vlees {
-    --buttonColor: bisque;
-  }
+    &.vlees {
+        --buttonColor: bisque;
+    }
 
-  &.vis {
-    --buttonColor: cornsilk;
-  }
+    &.vis {
+        --buttonColor: cornsilk;
+    }
 
-  &.groente {
-    --buttonColor: honeydew;
-  }
+    &.groente {
+        --buttonColor: honeydew;
+    }
 
-  &.fruit {
-    --buttonColor: lemonchiffon;
-  }
+    &.fruit {
+        --buttonColor: lemonchiffon;
+    }
 }
 
 .buttonReset {
-  border          : none;
-  outline         : none;
-  background-color: transparent;
-  cursor          : pointer;
-  color           : black;
-  padding         : 0;
+    border          : none;
+    outline         : none;
+    background-color: transparent;
+    cursor          : pointer;
+    color           : black;
+    padding         : 0;
 }
 
 button.button--text {
-  .buttonReset;
-  text-decoration: underline;
+    .buttonReset;
+    text-decoration: underline;
 }
 
 button[class*=ingredient__button--] {
-  .buttonReset;
-  position   : absolute;
-  display    : block;
-  width      : 40%;
-  height     : 100%;
-  padding    : 0;
-  z-index    : 1;
-  line-height: 0;
-  font-size  : 1.2em;
-  filter     : grayscale(1);
+    .buttonReset;
+    position   : absolute;
+    display    : block;
+    width      : 40%;
+    height     : 100%;
+    padding    : 0;
+    z-index    : 1;
+    line-height: 0;
+    font-size  : 1.2em;
+    filter     : grayscale(1);
 
-  &.active {
-    filter: grayscale(0);
-  }
+    &.active {
+        filter: grayscale(0);
+    }
 
-  &::before {
-    content: '';
-  }
+    &::before {
+        content: '';
+    }
 }
 
 button.ingredient__button--left {
-  left      : 0;
-  text-align: left;
+    left      : 0;
+    text-align: left;
 
-  &::before {
-    content: '👍🏻';
-  }
+    &::before {
+        content: '👍🏻';
+    }
 
-  &[disabled]::before {
-    content: '👍'
-  }
+    &[disabled]::before {
+        content: '👍'
+    }
 }
 
 button.ingredient__button--right {
-  right     : 0;
-  text-align: left;
-  transform : scaleX(-1);
+    right     : 0;
+    text-align: left;
+    transform : scaleX(-1);
 
-  &::before {
-    content: '👎🏻';
-  }
+    &::before {
+        content: '👎🏻';
+    }
 
-  &[disabled]::before {
-    content: '👎';
-  }
+    &[disabled]::before {
+        content: '👎';
+    }
 }
 
 .ingredient__label {
-  margin        : 10px 20px;
-  font-family   : palatino, cursive;
-  font-style    : italic;
-  font-size     : 1em;
-  line-height   : 1em;
-  letter-spacing: 1px;
-  text-transform: capitalize;
-  hyphens       : auto;
-  word-break    : break-word;
-  text-align    : center;
-  color         : #333;
-  opacity       : 1;
-  text-shadow   : 0 1px 1px #D9D9D9;
-  z-index       : 0;
-  pointer-events: none;
+    margin        : 10px 20px;
+    font-family   : palatino, cursive;
+    font-style    : italic;
+    font-size     : 1em;
+    line-height   : 1em;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    hyphens       : auto;
+    word-break    : break-word;
+    text-align    : center;
+    color         : #333;
+    opacity       : 1;
+    text-shadow   : 0 1px 1px #D9D9D9;
+    z-index       : 0;
+    pointer-events: none;
 }
 
 @media screen and (max-width: 600px) {
-  .ingredient__label {
-    letter-spacing: 0;
-  }
+    .ingredient__label {
+        letter-spacing: 0;
+    }
 }
