@@ -97,6 +97,7 @@ button.ingredient__button--left {
 
     &::before {
         content: '👍🏻';
+        filter : sepia(0) saturate(4) hue-rotate(60deg);
     }
 
     &[disabled]::before {
@@ -111,6 +112,7 @@ button.ingredient__button--right {
 
     &::before {
         content: '👎🏻';
+        filter : sepia(0) saturate(4) hue-rotate(300deg);
     }
 
     &[disabled]::before {
